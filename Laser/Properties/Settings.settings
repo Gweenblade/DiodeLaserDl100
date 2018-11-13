@@ -1,0 +1,582 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Laser.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MinV" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MaxV" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">80000</Value>
+    </Setting>
+    <Setting Name="MinT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="MaxT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="ActV" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ActT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="StepV" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="StepT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.1</Value>
+    </Setting>
+    <Setting Name="TStepT" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="TStepV" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Dioda1MinV" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda1MaxV" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">75</Value>
+    </Setting>
+    <Setting Name="Dioda1MinT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="Dioda1MaxT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">45</Value>
+    </Setting>
+    <Setting Name="ChecklistDiode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="Dioda2MinV" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2MaxV" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Dioda2MinT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2MaxT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Dioda3MinV" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3MaxV" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3MinT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3MaxT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MinE" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MaxE" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="StepE" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="EStepT" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="EStepV" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MinQ" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MaxQ" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="StepQ" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="QStepT" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="QStepV" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MinK" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MaxK" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="StepK" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="KStepT" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="KStepV" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MinW" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MaxW" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="StepW" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WStepT" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WStepV" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ScalingParameter" Type="System.Int16" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="TriggerParameter" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Graphsettingoption" Type="System.Int16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Graphsettingtype" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Dioda1A1LOWcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.000171972</Value>
+    </Setting>
+    <Setting Name="Dioda1B1LOWcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.00922</Value>
+    </Setting>
+    <Setting Name="Dioda1C1LOWcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-1.0296</Value>
+    </Setting>
+    <Setting Name="Dioda1D1LOWcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">12851.27013</Value>
+    </Setting>
+    <Setting Name="Dioda1A1LOWnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1.04084E-05</Value>
+    </Setting>
+    <Setting Name="Dioda1B1LOWnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.000554599</Value>
+    </Setting>
+    <Setting Name="Dioda1C1LOWnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.06237</Value>
+    </Setting>
+    <Setting Name="Dioda1D1LOWnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">778.13318</Value>
+    </Setting>
+    <Setting Name="Dioda1A1LOWTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-5.1556E-06</Value>
+    </Setting>
+    <Setting Name="Dioda1B1LOWTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.000276371</Value>
+    </Setting>
+    <Setting Name="Dioda1C1LOWTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.03087</Value>
+    </Setting>
+    <Setting Name="Dioda1D1LOWTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">385.27139</Value>
+    </Setting>
+    <Setting Name="Dioda1A1MIDcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.000135127</Value>
+    </Setting>
+    <Setting Name="Dioda1B1MIDcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.007</Value>
+    </Setting>
+    <Setting Name="Dioda1C1MIDcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.98234</Value>
+    </Setting>
+    <Setting Name="Dioda1D1MIDcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">12850.79027</Value>
+    </Setting>
+    <Setting Name="Dioda1A1MIDnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">8.24117E-06</Value>
+    </Setting>
+    <Setting Name="Dioda1B1MIDnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.000423721</Value>
+    </Setting>
+    <Setting Name="Dioda1C1MIDnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.5956</Value>
+    </Setting>
+    <Setting Name="Dioda1D1MIDnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">778.16178</Value>
+    </Setting>
+    <Setting Name="Dioda1A1MIDTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-4.05101E-06</Value>
+    </Setting>
+    <Setting Name="Dioda1B1MIDTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.000209782</Value>
+    </Setting>
+    <Setting Name="Dioda1C1MIDTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.02945</Value>
+    </Setting>
+    <Setting Name="Dioda1D1MIDTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">385.257</Value>
+    </Setting>
+    <Setting Name="Dioda1A1HIGHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-4.41143E-05</Value>
+    </Setting>
+    <Setting Name="Dioda1B1HIGHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.00441</Value>
+    </Setting>
+    <Setting Name="Dioda1C1HIGHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.53475</Value>
+    </Setting>
+    <Setting Name="Dioda1D1HIGHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">12844.97813</Value>
+    </Setting>
+    <Setting Name="Dioda1A1HIGHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">2.7706E-06</Value>
+    </Setting>
+    <Setting Name="Dioda1B1HIGHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.000264008</Value>
+    </Setting>
+    <Setting Name="Dioda1C1HIGHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.03252</Value>
+    </Setting>
+    <Setting Name="Dioda1D1HIGHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">778.51336</Value>
+    </Setting>
+    <Setting Name="Dioda1A1HIGHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-1.32251E-06</Value>
+    </Setting>
+    <Setting Name="Dioda1B1HIGHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.000132141</Value>
+    </Setting>
+    <Setting Name="Dioda1C1HIGHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.01603</Value>
+    </Setting>
+    <Setting Name="Dioda1D1HIGHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">385.08276</Value>
+    </Setting>
+    <Setting Name="Dioda1A1HIGHHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.000172815</Value>
+    </Setting>
+    <Setting Name="Dioda1B1HIGHHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.00953</Value>
+    </Setting>
+    <Setting Name="Dioda1C1HIGHHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-1.04788</Value>
+    </Setting>
+    <Setting Name="Dioda1D1HIGHHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">12850.21943</Value>
+    </Setting>
+    <Setting Name="Dioda1A1HIGHHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1.05122E-05</Value>
+    </Setting>
+    <Setting Name="Dioda1B1HIGHHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.000575543</Value>
+    </Setting>
+    <Setting Name="Dioda1C1HIGHHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.0635</Value>
+    </Setting>
+    <Setting Name="Dioda1D1HIGHHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">778.19669</Value>
+    </Setting>
+    <Setting Name="Dioda1A1HIGHHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-5.18085E-06</Value>
+    </Setting>
+    <Setting Name="Dioda1B1HIGHHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.000285591</Value>
+    </Setting>
+    <Setting Name="Dioda1C1HIGHHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-0.03141</Value>
+    </Setting>
+    <Setting Name="Dioda1D1HIGHHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">385.23989</Value>
+    </Setting>
+    <Setting Name="Dioda2A1LOWcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">55</Value>
+    </Setting>
+    <Setting Name="Dioda2B1LOWcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2C1LOWcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2D1LOWcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2A1LOWnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2B1LOWnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2C1LOWnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2D1LOWnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2A1LOWTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2B1LOWTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2C1LOWTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2D1LOWTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2A1MIDcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2B1MIDcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2C1MIDcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2D1MIDcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2A1MIDnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2B1MIDnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2C1MIDnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2D1MIDnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2A1MIDTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2B1MIDTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2C1MIDTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2D1MIDTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2A1HIGHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2B1HIGHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2C1HIGHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2D1HIGHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2A1HIGHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2B1HIGHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2C1HIGHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2D1HIGHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2A1HIGHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2B1HIGHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2C1HIGHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2D1HIGHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2A1HIGHHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2B1HIGHHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2C1HIGHHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2D1HIGHHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2A1HIGHHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2B1HIGHHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2C1HIGHHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2D1HIGHHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2A1HIGHHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2B1HIGHHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2C1HIGHHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda2D1HIGHHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3A1LOWcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3B1LOWcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3C1LOWcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3D1LOWcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3A1LOWnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3B1LOWnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3C1LOWnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3D1LOWnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3A1LOWTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3B1LOWTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3C1LOWTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3D1LOWTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3A1MIDcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3B1MIDcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3C1MIDcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3D1MIDcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3A1MIDnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3B1MIDnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3C1MIDnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3D1MIDnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3A1MIDTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3B1MIDTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3C1MIDTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3D1MIDTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3A1HIGHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3B1HIGHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3C1HIGHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3D1HIGHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3A1HIGHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3B1HIGHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3C1HIGHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3D1HIGHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3A1HIGHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3B1HIGHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3C1HIGHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3D1HIGHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3A1HIGHHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3B1HIGHHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3C1HIGHHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3D1HIGHHcm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3A1HIGHHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3B1HIGHHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3C1HIGHHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3D1HIGHHnm" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3A1HIGHHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3B1HIGHHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3C1HIGHHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Dioda3D1HIGHHTHz" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ChosenDiode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

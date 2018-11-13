@@ -1,0 +1,891 @@
+D:\Junior\Laser\Laser\bin\Debug\Laser.exe.config
+D:\Junior\Laser\Laser\bin\Debug\Laser.exe
+D:\Junior\Laser\Laser\bin\Debug\Laser.pdb
+D:\Junior\Laser\Laser\bin\Debug\ZedGraph.dll
+D:\Junior\Laser\Laser\bin\Debug\ZedGraph.xml
+D:\Junior\Laser\Laser\bin\Debug\de\ZedGraph.resources.dll
+D:\Junior\Laser\Laser\bin\Debug\es\ZedGraph.resources.dll
+D:\Junior\Laser\Laser\bin\Debug\fr\ZedGraph.resources.dll
+D:\Junior\Laser\Laser\bin\Debug\hu\ZedGraph.resources.dll
+D:\Junior\Laser\Laser\bin\Debug\it\ZedGraph.resources.dll
+D:\Junior\Laser\Laser\bin\Debug\ja\ZedGraph.resources.dll
+D:\Junior\Laser\Laser\bin\Debug\pt\ZedGraph.resources.dll
+D:\Junior\Laser\Laser\bin\Debug\ru\ZedGraph.resources.dll
+D:\Junior\Laser\Laser\bin\Debug\sk\ZedGraph.resources.dll
+D:\Junior\Laser\Laser\bin\Debug\sv\ZedGraph.resources.dll
+D:\Junior\Laser\Laser\bin\Debug\tr\ZedGraph.resources.dll
+D:\Junior\Laser\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+D:\Junior\Laser\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\Junior\Laser\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+D:\Junior\Laser\Laser\obj\Debug\Laser.Form1.resources
+D:\Junior\Laser\Laser\obj\Debug\Laser.Properties.Resources.resources
+D:\Junior\Laser\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+D:\Junior\Laser\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+D:\Junior\Laser\Laser\obj\Debug\Laser.exe
+D:\Junior\Laser\Laser\obj\Debug\Laser.pdb
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.exe
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.pdb
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\Laser.exe.config
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\Laser.exe
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\Laser.pdb
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\Studia 02\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Laser\Laser\Laser\obj\Debug\Laser.pdb
+E:\Laser\Laser\Laser\bin\Debug\Laser.exe.config
+E:\Laser\Laser\Laser\bin\Debug\Laser.exe
+E:\Laser\Laser\Laser\bin\Debug\Laser.pdb
+E:\Laser\Laser\Laser\bin\Debug\ADwin.Driver.dll
+E:\Laser\Laser\Laser\bin\Debug\ZedGraph.dll
+E:\Laser\Laser\Laser\bin\Debug\ZedGraph.xml
+E:\Laser\Laser\Laser\bin\Debug\de\ZedGraph.resources.dll
+E:\Laser\Laser\Laser\bin\Debug\es\ZedGraph.resources.dll
+E:\Laser\Laser\Laser\bin\Debug\fr\ZedGraph.resources.dll
+E:\Laser\Laser\Laser\bin\Debug\hu\ZedGraph.resources.dll
+E:\Laser\Laser\Laser\bin\Debug\it\ZedGraph.resources.dll
+E:\Laser\Laser\Laser\bin\Debug\ja\ZedGraph.resources.dll
+E:\Laser\Laser\Laser\bin\Debug\pt\ZedGraph.resources.dll
+E:\Laser\Laser\Laser\bin\Debug\ru\ZedGraph.resources.dll
+E:\Laser\Laser\Laser\bin\Debug\sk\ZedGraph.resources.dll
+E:\Laser\Laser\Laser\bin\Debug\sv\ZedGraph.resources.dll
+E:\Laser\Laser\Laser\bin\Debug\tr\ZedGraph.resources.dll
+E:\Laser\Laser\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\Laser\Laser\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\Laser\Laser\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+E:\Laser\Laser\Laser\obj\Debug\Laser.Form1.resources
+E:\Laser\Laser\Laser\obj\Debug\Laser.Properties.Resources.resources
+E:\Laser\Laser\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+E:\Laser\Laser\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+E:\Laser\Laser\Laser\obj\Debug\Laser.exe
+E:\Laser\Laser\Laser\obj\Debug\Laser.pdb
+E:\BackLaser\Laser\Laser\bin\Debug\Laser.exe.config
+E:\BackLaser\Laser\Laser\bin\Debug\Laser.exe
+E:\BackLaser\Laser\Laser\bin\Debug\Laser.pdb
+E:\BackLaser\Laser\Laser\bin\Debug\ADwin.Driver.dll
+E:\BackLaser\Laser\Laser\bin\Debug\ZedGraph.dll
+E:\BackLaser\Laser\Laser\bin\Debug\ZedGraph.xml
+E:\BackLaser\Laser\Laser\bin\Debug\de\ZedGraph.resources.dll
+E:\BackLaser\Laser\Laser\bin\Debug\es\ZedGraph.resources.dll
+E:\BackLaser\Laser\Laser\bin\Debug\fr\ZedGraph.resources.dll
+E:\BackLaser\Laser\Laser\bin\Debug\hu\ZedGraph.resources.dll
+E:\BackLaser\Laser\Laser\bin\Debug\it\ZedGraph.resources.dll
+E:\BackLaser\Laser\Laser\bin\Debug\ja\ZedGraph.resources.dll
+E:\BackLaser\Laser\Laser\bin\Debug\pt\ZedGraph.resources.dll
+E:\BackLaser\Laser\Laser\bin\Debug\ru\ZedGraph.resources.dll
+E:\BackLaser\Laser\Laser\bin\Debug\sk\ZedGraph.resources.dll
+E:\BackLaser\Laser\Laser\bin\Debug\sv\ZedGraph.resources.dll
+E:\BackLaser\Laser\Laser\bin\Debug\tr\ZedGraph.resources.dll
+E:\BackLaser\Laser\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\BackLaser\Laser\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\BackLaser\Laser\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+E:\BackLaser\Laser\Laser\obj\Debug\Laser.Form1.resources
+E:\BackLaser\Laser\Laser\obj\Debug\Laser.Properties.Resources.resources
+E:\BackLaser\Laser\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+E:\BackLaser\Laser\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+E:\BackLaser\Laser\Laser\obj\Debug\Laser.exe
+E:\BackLaser\Laser\Laser\obj\Debug\Laser.pdb
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\Laser.exe.config
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\Laser.exe
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\Laser.pdb
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\obj\Debug\Laser.exe
+C:\Users\Krystian\Desktop\BackLaser\Laser\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\ALEX_EXPERIMENT.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\OscyloskopT1.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\BackLaser\Laser\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\ALEX_EXPERIMENT.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\OscyloskopT1.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\Laser\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\ALEX_EXPERIMENT.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\OscyloskopT1.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\FrontLaser\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\ALEX_EXPERIMENT.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\OscyloskopT1.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\FrontLaser\New design\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\Laser.exe.config
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\Laser.exe
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\Laser.pdb
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\OscyloskopT1.pdb
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\obj\Debug\Laser.exe.config
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\obj\Debug\Laser.exe
+C:\Users\Tomek\Desktop\Puczka programy\Oprogramowanie do lasera wersja 0.91\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.92\Laser\bin\Debug\Oscyloskop.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\Oscyloskop.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\Oscyloskop.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.pdb
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\Laser.exe.config
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\Laser.exe
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\Laser.pdb
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ADwin.Driver.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ALEX_EXPERIMENT.exe
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\Oscyloskop.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\OscyloskopT1.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ZedGraph.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ZedGraph.xml
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\de\ZedGraph.resources.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\es\ZedGraph.resources.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\fr\ZedGraph.resources.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\hu\ZedGraph.resources.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\it\ZedGraph.resources.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ja\ZedGraph.resources.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\pt\ZedGraph.resources.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ru\ZedGraph.resources.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\sk\ZedGraph.resources.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\sv\ZedGraph.resources.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\tr\ZedGraph.resources.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.exe.config
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.Form1.resources
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.Form2.resources
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.Properties.Resources.resources
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.exe
+D:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.pdb
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\Laser.exe.config
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\Laser.exe
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\Laser.pdb
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ADwin.Driver.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ALEX_EXPERIMENT.exe
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\Oscyloskop.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\OscyloskopT1.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ZedGraph.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ZedGraph.xml
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\de\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\es\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\fr\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\hu\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\it\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ja\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\pt\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\ru\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\sk\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\sv\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\tr\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.Form1.resources
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.Form2.resources
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.Properties.Resources.resources
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.exe
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu Wersja 0.96\Laser\obj\Debug\Laser.pdb
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\Laser.exe.config
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\Laser.exe
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\Laser.pdb
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ADwin.Driver.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ALEX_EXPERIMENT.exe
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\Oscyloskop.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\OscyloskopT1.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ZedGraph.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ZedGraph.xml
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\de\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\es\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\fr\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\hu\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\it\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ja\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\pt\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ru\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\sk\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\sv\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\tr\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.Form1.resources
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.Form2.resources
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.Properties.Resources.resources
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.exe
+H:\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\Oscyloskop.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja z obsługą oscyloskopu i poprawione wykresy\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\Oscyloskop.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\Laser.exe.config
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\Laser.exe
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\Laser.pdb
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ADwin.Driver.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ALEX_EXPERIMENT.exe
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\Oscyloskop.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\OscyloskopT1.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ZedGraph.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ZedGraph.xml
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\de\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\es\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\fr\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\hu\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\it\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ja\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\pt\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\ru\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\sk\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\sv\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\tr\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.exe.config
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.Form1.resources
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.Form2.resources
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.Properties.Resources.resources
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.exe
+D:\Oprogoramowanie do lasera Duże zmiany na wersji 0.96\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\Oscyloskop.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.97\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\Oscyloskop.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\Oscyloskop.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogoramowanie do lasera Duże zmiany na wersji 0.975 - fakeGraph\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\Oscyloskop.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Najnowsza wersja\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\Oscyloskop.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\obj\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ALEX_EXPERIMENT.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\Oscyloskop.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Oprogramowanie do lasera wersja 0.98\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\Laser.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\ALEX_EXPERIMENT.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\Oscyloskop.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\ZedGraph.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\ZedGraph.xml
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\obj\Debug\Laser.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\obj\Debug\Laser.csproj.Laser.exe.config
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\obj\Debug\Laser.exe
+C:\Users\Artur\Desktop\Stypendium magistranckie\KOPIE ZAPASOWE\Diode Laser Software\Laser\obj\Debug\Laser.pdb
