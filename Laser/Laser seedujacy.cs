@@ -694,30 +694,21 @@ namespace Laser
             int.TryParse(CzasKVMS.Text, out Vstep);
             if (tabControl1.SelectedTab == Cm)
             {
-                double.TryParse(TBmincm.Text, out min);
-                double.TryParse(TBmaxcm.Text, out max);
-                Tmin = Advanced.Tforkseeker(min, false);
-                Tmax = Advanced.Tforkseeker(max, true);
-                TempMinAdvanced = Tmin;
-                TempMaxAdvanced = Tmax;
+                double.TryParse(TBstepcm.Text, out step);
+                int.TryParse(CzasKTMS.Text, out Tstep);
+                int.TryParse(CzasKVMS.Text, out Vstep);
             }
             if (tabControl1.SelectedTab == tabPage3)
             {
-                double.TryParse(TBminTHz.Text, out min);
-                double.TryParse(TBmaxTHz.Text, out max);
-                Tmin = Advanced.TforHzseeker(min, false);
-                Tmax = Advanced.TforHzseeker(max, true);
-                TempMinAdvanced = Tmin;
-                TempMaxAdvanced = Tmax;
+                double.TryParse(TBstepTHz.Text, out step);
+                int.TryParse(CzasvTMS.Text, out Tstep);
+                int.TryParse(CzasvVMS.Text, out Vstep);
             }
             if (tabControl1.SelectedTab == tabPage5)
             {
-                double.TryParse(TBminnm.Text, out min);
-                double.TryParse(TBmaxnm.Text, out max);
-                Tmin = Advanced.Tforlambdaseeker(min, false);
-                Tmax = Advanced.Tforlambdaseeker(max, true);
-                TempMinAdvanced = Tmin;
-                TempMaxAdvanced = Tmax;
+                double.TryParse(TBstepnm.Text, out step);
+                int.TryParse(TBstepnmTMS.Text, out Tstep);
+                int.TryParse(TBstepnmVMS.Text, out Vstep);
             }
             double MinT = TempMinAdvanced, MaxT = TempMaxAdvanced, StepS = step;
             int StepTV = Vstep,  StepTT = Tstep;
