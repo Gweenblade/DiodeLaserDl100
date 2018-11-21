@@ -833,7 +833,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(129, 13);
             this.label22.TabIndex = 14;
-            this.label22.Text = "Czas stabilizacji prad. (ms)";
+            this.label22.Text = "Czas stabilizacji prąd. (ms)";
             // 
             // label23
             // 
@@ -937,7 +937,7 @@
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(129, 13);
             this.label45.TabIndex = 24;
-            this.label45.Text = "Czas stabilizacji prad. (ms)";
+            this.label45.Text = "Czas stabilizacji prąd. (ms)";
             // 
             // label46
             // 

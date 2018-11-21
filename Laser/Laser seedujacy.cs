@@ -1731,7 +1731,7 @@ namespace Laser
             label12.Text = "Set temp. (°C)";
             cmmin.Text = "Min. (cmˉ¹)";
             cmmax.Text = "Max. (cmˉ¹)";
-            Stepcm.Text = "Step (cmˉ¹)";
+            Stepcm.Text = "Number of points";
             label15.Text = "Temp. stabilisation (ms)";
             label16.Text = "Current stabilisation (ms)";
             label9.Text = "From:";
@@ -1753,6 +1753,15 @@ namespace Laser
             zedGraphControl3.GraphPane.XAxis.Title.Text = "Time (s)";
             zedGraphControl3.GraphPane.YAxis.Title.Text = "Wavenumber (cmˉ¹)";
             zedGraphControl3.GraphPane.Title.Text = "Beam analysis";
+            Dioda1.Text = "Diode 1";
+            Dioda2.Text = "Diode 2";
+            Dioda3.Text = "Diode 3";
+            label22.Text = "Current stabilisation (ms)";
+            label23.Text = "Temp. stabilisation (ms)";
+            label24.Text = "Number of points";
+            label45.Text = "Current stabilisation (ms)";
+            label46.Text = "Temp. stabilisation (ms)";
+            label47.Text = "Number of points";
         }
 
         private void AktualizacjaWykresu_Click(object sender, EventArgs e)
