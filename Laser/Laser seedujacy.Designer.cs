@@ -179,6 +179,7 @@
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.Testbox = new System.Windows.Forms.TextBox();
+            this.SaveLoop = new System.Windows.Forms.SaveFileDialog();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1648,7 +1649,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(126, 16);
+            this.radioButton2.Location = new System.Drawing.Point(126, 17);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(59, 17);
             this.radioButton2.TabIndex = 1;
@@ -1661,7 +1662,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(12, 16);
+            this.radioButton1.Location = new System.Drawing.Point(12, 17);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(53, 17);
             this.radioButton1.TabIndex = 0;
@@ -1755,6 +1756,10 @@
             this.Testbox.Name = "Testbox";
             this.Testbox.Size = new System.Drawing.Size(100, 20);
             this.Testbox.TabIndex = 57;
+            // 
+            // SaveLoop
+            // 
+            this.SaveLoop.FileOk += new System.ComponentModel.CancelEventHandler(this.SaveLoop_FileOk);
             // 
             // Form1
             // 
@@ -1975,6 +1980,7 @@
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.TextBox Testbox;
+        private System.Windows.Forms.SaveFileDialog SaveLoop;
     }
 }
 

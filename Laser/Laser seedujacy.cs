@@ -46,7 +46,7 @@ namespace Laser
         SymbolType ST1 = SymbolType.None;
         obsługaAdWina AW;
         AdvancedMeasurements Advanced;
-        StringBuilder SB, SBoscyl;
+        StringBuilder SB, SBoscyl, SBloop;
         ThreadStart VSCAN, TSCAN, VTSCAN, TLO, ADVANCEDSCANK, ADVANCEDSCANNM, ADVANCEDSCANTHZ; 
         Thread Vscan, Tscan, VTscan, Tlo, AdvancedScanK, AdvancedScannm, AdvancedScanthz;
         public static EventWaitHandle EWHprzestroj;
@@ -56,9 +56,9 @@ namespace Laser
         ScalingParameters scalingParameters;
         private BackgroundWorker myWorker = new BackgroundWorker();
         OscyloskopT1.Form1 Oscyl;
-
         public Form1()
         {
+            Form2 form2 = new Form2();
             InitializeComponent();
             Combofalo.Enabled = false;
             Oscyl = new OscyloskopT1.Form1();
@@ -361,17 +361,33 @@ namespace Laser
         public void Intro()
         {
 
-                if (Checknm.Checked == true)
-                    SB.Append(" Długość fali (nm)");
-                if (Checkk.Checked == true)
-                    SB.Append(" Liczba falowa (cm)");
-                if (CheckMHz.Checked == true)
-                    SB.Append(" Częstotliwość (MHz)");
-                if (CheckeV.Checked == true)
-                    SB.Append(" Energia (eV)");
-                if (Checkoscylo.Checked == true)
-                    SB.Append(" Wskazania oscyloskopu");
+            if (Checknm.Checked == true)
+            {
+                SB.Append(" Długość fali (nm)");
+                SBloop.Append(" Długość fali (nm)");
+            }
+            if (Checkk.Checked == true)
+            {
+                SB.Append(" Liczba falowa (cm)");
+                SBloop.Append(" Liczba falowa (cm)");
+            }
+            if (CheckMHz.Checked == true)
+            {
+                SB.Append(" Częstotliwość (MHz)");
+                SBloop.Append(" Częstotliwość (MHz)");
+            }
+            if (CheckeV.Checked == true)
+            {
+                SB.Append(" Energia (eV)");
+                SBloop.Append(" Energia (eV)");
+            }
+            if (Checkoscylo.Checked == true)
+            {
+                SB.Append(" Wskazania oscyloskopu");
+                SBloop.Append(" Wskazania oscyloskopu");
+            }
             SB.Append(Environment.NewLine);
+            SBloop.Append(Environment.NewLine);
         }
         public void Wykonajpomiar()
         {
@@ -420,11 +436,13 @@ namespace Laser
                 for (i = 0; i < ave; i++)
                 {
                     SB.Append(" " + WAVET[i]);
+                    SBloop.Append(" " + WAVET[i]);
                 }
                 if (AveY.Checked)
                 {
                     SUMW = SUMW / ave;
                     SB.Append(" Średnia: " + SUMW);
+                    SBloop.Append(" Średnia: " + SUMW);
                 }
 
             }
@@ -433,11 +451,13 @@ namespace Laser
                 for(i = 0; i < ave; i++)
                 {
                     SB.Append(" " + WAVENT[i]);
+                    SBloop.Append(" " + WAVENT[i]);
                 }
                 if (AveY.Checked)
                 {
                     SUMK = SUMK / ave;
                     SB.Append(" Średnia: " + SUMK);
+                    SBloop.Append(" Średnia: " + SUMK);
                 }
 
             }
@@ -446,11 +466,13 @@ namespace Laser
                 for (i = 0; i < ave; i++)
                 {
                     SB.Append(" " + FREQT[i]);
+                    SBloop.Append(" " + FREQT[i]);
                 }
                 if (AveY.Checked)
                 {
                     SUMV = SUMV / ave;
                     SB.Append(" Średnia: " + SUMV);
+                    SBloop.Append(" Średnia: " + SUMV);
                 }
 
             }
@@ -459,11 +481,13 @@ namespace Laser
                 for (i = 0; i < ave; i++)
                 {
                     SB.Append(" " + ENERGYT[i]);
+                    SBloop.Append(" " + ENERGYT[i]);
                 }
                 if (AveY.Checked)
                 {
                     SUME = SUME / ave;
                     SB.Append(" Średnia: " + SUME);
+                    SBloop.Append(" Średnia: " + SUME);
                 }
 
             }
@@ -472,11 +496,13 @@ namespace Laser
                 for (i = 0; i < ave; i++)
                 {
                     SB.Append(" " + OSCYLOT[i]);
+                    SBloop.Append(" " + OSCYLOT[i]);
                 }
                 if (AveY.Checked)
                 {
                     SUMO = SUMO / ave;
                     SB.Append(" Średnia: " + SUMO);
+                    SBloop.Append(" Średnia: " + SUMO);
                 }
 
             }
@@ -489,6 +515,7 @@ namespace Laser
             double VMIN, VMAX, StepV, VPOM, i, r, OSmin, OSmax;
             int x;
             SB = new StringBuilder();
+            SBloop = new StringBuilder();
             double.TryParse(TextBox1.Text, out Napięciemin);  //16,5
             double.TryParse(textBox2.Text, out Napięciemax);
             double.TryParse(textBox3.Text, out Krokprad);
@@ -498,7 +525,10 @@ namespace Laser
             VMAX = Convert.ToDouble(Napięciemax);
             StepV = Convert.ToDouble(Krokprad);
             r = (VMAX - VMIN) / StepV;
+            SaveLoop.ShowDialog();
+            StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName);
             SB.Append("Czas (ms)" + "    " + "Prąd (mA)");
+            SBloop.Append("Czas (ms)" + "    " + "Prąd (mA)");
             Intro();
             VPOM = VMIN;
             stopWatch.Start();
@@ -526,12 +556,17 @@ namespace Laser
                     stopWatch.Stop();         //Stoper zatrzymuje sie bez wlaczenia
                     Stoper = stopWatch.ElapsedMilliseconds;
                     SB.Append(Stoper + "    " + VPOM);
+                    SBloop.Append(Stoper + "    " + VPOM);
                     Wykonajpomiar();
+                    StreamLoop.Write(SBloop);
+                    SBloop.Clear();  
+                    SBloop.Append("" + Environment.NewLine);
                     stopWatch.Start();
                     EWHustawiono.Set(); 
             }
             stopWatch.Stop();
             stopWatch.Reset();
+            StreamLoop.Close();
             MessageBox.Show("Przestrajanie zakończone");
         }
 
@@ -1762,6 +1797,13 @@ namespace Laser
             label45.Text = "Current stabilisation (ms)";
             label46.Text = "Temp. stabilisation (ms)";
             label47.Text = "Number of points";
+            UsedDiode.Text = "Used diode";
+            Advancedchecker.Text = "Initial checking";
+            Veryadvancedchecker.Text = "Precise checking";
+            label17.Text = "Tuning parameters";
+            LabelMinTemp.Text = "Initial temp ... °C";
+            LabelMaxTemp.Text = "Final temp ... °C";
+            button13.Text = "Exit";
         }
 
         private void AktualizacjaWykresu_Click(object sender, EventArgs e)
@@ -2311,6 +2353,11 @@ namespace Laser
             {
                 Environment.Exit(Environment.ExitCode);
             }
+        }
+
+        private void SaveLoop_FileOk(object sender, CancelEventArgs e)
+        {
+
         }
 
         private void button14_Click(object sender, EventArgs e)
