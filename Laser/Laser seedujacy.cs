@@ -525,7 +525,6 @@ namespace Laser
             VMAX = Convert.ToDouble(Napięciemax);
             StepV = Convert.ToDouble(Krokprad);
             r = (VMAX - VMIN) / StepV;
-            SaveLoop.ShowDialog();
             StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName);
             SB.Append("Czas (ms)" + "    " + "Prąd (mA)");
             SBloop.Append("Czas (ms)" + "    " + "Prąd (mA)");
@@ -574,6 +573,7 @@ namespace Laser
         {
             PointPairList PPL2 = new PointPairList();
             SB = new StringBuilder();
+            SBloop = new StringBuilder();
             double TMIN, TMAX, StepT, TPOM, i, r, IN = 60000;
             int x;
             double.TryParse(textBox5.Text, out Tempmin);
@@ -585,9 +585,12 @@ namespace Laser
             StepT = Convert.ToDouble(Kroktemp);
             int stoper = Krokttemp;
             SB.Append("Czas (ms)" + "    " + "Temperatura (°C)");
+            SBloop.Append("Czas (ms)" + "    " + "Temperatura (°C)");
             Intro();
             r = (TMAX - TMIN) / StepT;
+            StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName);
             stopWatch.Start();
+
             for (i = 0; i <= r; i++)
             {
                 if (TriggerY.Checked)
@@ -614,11 +617,16 @@ namespace Laser
                     Stoper = stopWatch.ElapsedMilliseconds;
                     stopWatch.Start();
                     SB.Append(Stoper + "    " + TPOM );
+                    SBloop.Append(Stoper + "    " + TPOM);
                     Wykonajpomiar();
+                    StreamLoop.Write(SBloop);
+                    SBloop.Clear();
+                    SBloop.Append("" + Environment.NewLine);
                     EWHustawiono.Set();
             }
             stopWatch.Stop();
             stopWatch.Reset();
+            StreamLoop.Close();
             MessageBox.Show("Przestrajanie zakończone");
         }
 
@@ -630,6 +638,7 @@ namespace Laser
             double VMIN, VMAX, StepV, VPOM, OSmin, OSmax, POM;
             int x, y;
             SB = new StringBuilder();
+            SBloop = new StringBuilder();
             int stoper = Kroktprad;
             double.TryParse(textBox5.Text, out Tempmin);
             double.TryParse(textBox6.Text, out Tempmax);
@@ -649,6 +658,7 @@ namespace Laser
             OSmax = VMAX;
             r = (TMAX - TMIN) / StepT;
             p = (VMAX - VMIN) / StepV;
+            StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName);
             int stoperV = Kroktprad, stoperT = Krokttemp;
             TPOM = TMIN;
             VPOM = VMIN;
@@ -698,13 +708,18 @@ namespace Laser
                         stopWatch.Stop();         //Stoper zatrzymuje sie bez wlaczenia
                         Stoper = stopWatch.ElapsedMilliseconds;
                         SB.Append(Stoper + "    " + TPOM + "    " + VPOM );
+                        SBloop.Append(Stoper + "    " + TPOM + "    " + VPOM);
                         Wykonajpomiar();
+                        StreamLoop.Write(SBloop);
                         stopWatch.Start();
+                        SBloop.Clear();
+                        SBloop.Append("" + Environment.NewLine);
                         EWHustawiono.Set();
                 }
             }
             stopWatch.Stop();
             stopWatch.Reset();
+            StreamLoop.Close();
             MessageBox.Show("Przestrajanie zakończone");
         }
 
@@ -750,6 +765,8 @@ namespace Laser
             MessageBox.Show("Działam" + MinT + MaxT + StepS + StepTV + StepTT);
             double TPOM;
             SB = new StringBuilder();
+            SBloop = new StringBuilder();
+            StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName);
             TPOM = MinT; //TempMinAdvanced, TempMaxAdvanced, step, Vstep, Tstep
             double startT = MinT;
             double pomT = MinT;
@@ -771,6 +788,7 @@ namespace Laser
             Stepcountertemperature = 0;
             double pom;
             SB.Append("Temperatura " + "Prąd (mA)");
+            SBloop.Append("Temperatura " + "Prąd (mA)");
             Intro();
             double border = Math.Abs(MaxT - MinT) * 10;
             for (Stepcountertemperature = 0; Stepcountertemperature <= border; Stepcountertemperature++)
@@ -800,12 +818,18 @@ namespace Laser
                     MessageBox.Show("" + pomT + pom);
                     AW.ustawPrad(scalingParameters.SkalNaPrad(pom));
                     SB.Append(pomT + "    " + pom);
+                    SBloop.Append(pomT + "    " + pom);
                     Thread.Sleep(StepTV);
                     Wykonajpomiar();
+                    StreamLoop.Write(SBloop);
+                    SBloop.Clear();
+                    SBloop.Append("" + Environment.NewLine);
                 }
                 helpcurrent = 0;
                 pomT = pomT + 0.1;
             }
+            StreamLoop.Close();
+            MessageBox.Show("Przestrajanie zakończone");
         }
 
         public void AdvancedLoopnm(double MinT, double MaxT, double StepS, int StepTV, int StepTT)
@@ -814,11 +838,12 @@ namespace Laser
             MessageBox.Show("Działam" + MinT + MaxT + StepS + StepTV + StepTT);
             double TPOM;
             SB = new StringBuilder();
+            SBloop = new StringBuilder();
             TPOM = MinT;
             double startT = MinT;
             double pomT = MinT;
             double endT = MaxT;
-
+            StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName);
             // if (pomT <= 20)
             //    AW.ustawPrad(scalingParameters.SkalNaPrad(25));
             // if (pomT > 20 && pomT < 32)
@@ -835,6 +860,7 @@ namespace Laser
             Stepcountertemperature = 0;
             double pom;
             SB.Append("Temperatura " + "Prąd (mA)");
+            SBloop.Append("Temperatura " + "Prąd (mA)");
             Intro();
             double border = Math.Abs(MaxT - MinT) * 10;
             for (Stepcountertemperature = 0; Stepcountertemperature <= border; Stepcountertemperature++)
@@ -862,12 +888,18 @@ namespace Laser
                     pom = helpcurrent + Stepcountercurrent * Stephelper;
                     AW.ustawPrad(scalingParameters.SkalNaPrad(pom));
                     SB.Append(pomT + "    " + pom);
+                    SBloop.Append(pomT + "    " + pom);
                     Thread.Sleep(StepTV);
                     Wykonajpomiar();
+                    StreamLoop.Write(SBloop);
+                    SBloop.Clear();
+                    SBloop.Append("" + Environment.NewLine);
                 }
                 helpcurrent = 0;
                 pomT = pomT + 0.1;
             }
+            StreamLoop.Close();
+            MessageBox.Show("Przestrajanie zakończone");
         }
 
         public void AdvancedLoopTHz(double MinT, double MaxT, double StepS, int StepTV, int StepTT)
@@ -876,6 +908,7 @@ namespace Laser
             MessageBox.Show("Działam" + MinT + MaxT + StepS + StepTV + StepTT);
             double TPOM;
             SB = new StringBuilder();
+            SBloop = new StringBuilder();
             TPOM = MinT;
             double startT = MinT;
             double pomT = MinT;
@@ -896,7 +929,9 @@ namespace Laser
             double Stepcountercurrent = 0, Stephelper = 0, Stepcountertemperature;
             Stepcountertemperature = 0;
             double pom;
+            StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName);
             SB.Append("Temperatura " + "Prąd (mA)");
+            SBloop.Append("Temperatura " + "Prąd (mA)");
             Intro();
             double border = Math.Abs(MaxT - MinT) * 10;
             for (Stepcountertemperature = 0; Stepcountertemperature <= border; Stepcountertemperature++)
@@ -924,12 +959,18 @@ namespace Laser
                     pom = helpcurrent + Stepcountercurrent * Stephelper;
                     AW.ustawPrad(scalingParameters.SkalNaPrad(pom));
                     SB.Append(pomT + "    " + pom);
+                    SBloop.Append(pomT + "    " + pom);
+                    StreamLoop.Write(SBloop);
+                    SBloop.Clear();
+                    SBloop.Append("" + Environment.NewLine);
                     Thread.Sleep(StepTV);
                     Wykonajpomiar();
                 }
                 helpcurrent = 0;
                 pomT = pomT + 0.1;
             }
+            StreamLoop.Close();
+            MessageBox.Show("Przestrajanie zakończone");
         }
         //########################################################################################
         //########################################################################################
@@ -1124,6 +1165,7 @@ namespace Laser
         {
             //Przestrajanie prądowe test
             Eventbool = false;
+            SaveLoop.ShowDialog();
             double VMIN, VMAX;
             double.TryParse(TextBox1.Text, out VMIN);  //16,5
             double.TryParse(textBox2.Text, out VMAX);
@@ -1140,6 +1182,7 @@ namespace Laser
         {
             //Przestrajanie temperaturowe test
             Eventbool = false;
+            SaveLoop.ShowDialog();
             double TMIN, TMAX;
             double.TryParse(textBox5.Text, out TMIN);  //16,5
             double.TryParse(textBox6.Text, out TMAX);
@@ -1242,6 +1285,7 @@ namespace Laser
         private void button5_Click(object sender, EventArgs e)
         {
             // Przestrajanie VT próba
+            SaveLoop.ShowDialog();
             Eventbool = false;
             VTscan = new Thread(VTSCAN);
             VTscan.Start();
