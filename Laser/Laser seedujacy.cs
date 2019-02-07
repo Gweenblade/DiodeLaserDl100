@@ -1178,9 +1178,12 @@ namespace Laser
                 }
                 Vscan = new Thread(VSCAN);
                 Vscan.Start();
+                Grafrys.PerformClick();
             }
             else
             {
+                Grafrys.PerformClick();
+                button1.BackColor = Color.White;
                 Vscan.Abort();
                 MessageBox.Show("Przerwano proces przestrajania");
             }
@@ -1192,6 +1195,7 @@ namespace Laser
             if (Tscan.IsAlive == false)
             {
                 Eventbool = false;
+                button2.BackColor = Color.MediumVioletRed;
                 SaveLoop.ShowDialog();
                 double TMIN, TMAX;
                 double.TryParse(textBox5.Text, out TMIN);  //16,5
@@ -1202,10 +1206,13 @@ namespace Laser
                     return;
                 }
                 Tscan = new Thread(TSCAN);
+                Grafrys.PerformClick();
                 Tscan.Start();
             }
             else
             {
+                Grafrys.PerformClick();
+                button2.BackColor = Color.White;
                 Tscan.Abort();
                 MessageBox.Show("Przerwano proces przestrajania");
             }
@@ -1303,13 +1310,17 @@ namespace Laser
             // Przestrajanie VT próba
             if (VTscan.IsAlive == false)
             {
+                button2.BackColor = Color.MediumVioletRed;
                 SaveLoop.ShowDialog();
                 Eventbool = false;
                 VTscan = new Thread(VTSCAN);
                 VTscan.Start();
+                Grafrys.PerformClick();
             }
             else
             {
+                Grafrys.PerformClick();
+                button2.BackColor = Color.White;
                 VTscan.Abort();
                 MessageBox.Show("Przerwano proces przestrajania");
             }
@@ -1455,22 +1466,32 @@ namespace Laser
 
         private void button16_Click(object sender, EventArgs e)
         {
-            double min, max, step;
-            int Tstep, Vstep;
-            double.TryParse(TBmincm.Text, out min);
-            double.TryParse(TBmaxcm.Text, out max);
-            double.TryParse(TBstepcm.Text, out step);
-            int.TryParse(CzasKTMS.Text, out Tstep);
-            int.TryParse(CzasKVMS.Text, out Vstep);
-            Laser.Properties.Settings.Default.MinK = min;
-            Laser.Properties.Settings.Default.MaxK = max;
-            Laser.Properties.Settings.Default.StepK = step;
-            Laser.Properties.Settings.Default.KStepT = Tstep;
-            Laser.Properties.Settings.Default.KStepV = Vstep;
-            Laser.Properties.Settings.Default.ScalingParameter = 1;
-            Laser.Properties.Settings.Default.TriggerParameter = false;
-            Laser.Properties.Settings.Default.Save();
-            AdvancedScanK.Start();
+            if (AdvancedScanK.IsAlive == false)
+            {
+                double min, max, step;
+                int Tstep, Vstep;
+                double.TryParse(TBmincm.Text, out min);
+                double.TryParse(TBmaxcm.Text, out max);
+                double.TryParse(TBstepcm.Text, out step);
+                int.TryParse(CzasKTMS.Text, out Tstep);
+                int.TryParse(CzasKVMS.Text, out Vstep);
+                Laser.Properties.Settings.Default.MinK = min;
+                Laser.Properties.Settings.Default.MaxK = max;
+                Laser.Properties.Settings.Default.StepK = step;
+                Laser.Properties.Settings.Default.KStepT = Tstep;
+                Laser.Properties.Settings.Default.KStepV = Vstep;
+                Laser.Properties.Settings.Default.ScalingParameter = 1;
+                Laser.Properties.Settings.Default.TriggerParameter = false;
+                Laser.Properties.Settings.Default.Save();
+                AdvancedScanK.Start();
+                Grafrys.PerformClick();
+            }
+            else
+            {
+                AdvancedScanK.Abort();
+                MessageBox.Show("Przerwano przestrajanie");
+                Grafrys.PerformClick();
+            }
 
         }
 
