@@ -34,7 +34,7 @@ namespace Laser
         int Kroktprad = 100;
         int Krokttemp = 100;
         int Pradindex = 0, Tempindex = 0, lambdaindex = 0, MHzindex = 0, kindex = 0, calkaindex = 0;
-        bool pause = false, Graphrubber = false;
+        bool pause = false, Graphrubber = false, Threadkiller = false;
         Stopwatch stopWatch = new Stopwatch();
         PointPairList PPL1 = new PointPairList();
         PointPairList PPL2 = new PointPairList();
@@ -124,7 +124,7 @@ namespace Laser
                 }
                 Rysujprad();
                 Rysujtemp();
-                Thread.Sleep(1000);
+                Thread.Sleep(100);
             }
         }
 
@@ -1163,36 +1163,52 @@ namespace Laser
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Przestrajanie prądowe test
-            Eventbool = false;
-            SaveLoop.ShowDialog();
-            double VMIN, VMAX;
-            double.TryParse(TextBox1.Text, out VMIN);  //16,5
-            double.TryParse(textBox2.Text, out VMAX);
-            if (help.CheckPrad(VMIN, VMAX) == false)
+            if (Vscan.IsAlive == false)
             {
-                MessageBox.Show("Przekroczono parametry pomiarowe, proces przestrajania nie może się rozpocząć.");
-                return;
+                button1.BackColor = Color.MediumVioletRed;
+                Eventbool = false;
+                SaveLoop.ShowDialog();
+                double VMIN, VMAX;
+                double.TryParse(TextBox1.Text, out VMIN);  //16,5
+                double.TryParse(textBox2.Text, out VMAX);
+                if (help.CheckPrad(VMIN, VMAX) == false)
+                {
+                    MessageBox.Show("Przekroczono parametry pomiarowe, proces przestrajania nie może się rozpocząć.");
+                    return;
+                }
+                Vscan = new Thread(VSCAN);
+                Vscan.Start();
             }
-            Vscan = new Thread(VSCAN);
-            Vscan.Start();
+            else
+            {
+                Vscan.Abort();
+                MessageBox.Show("Przerwano proces przestrajania");
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             //Przestrajanie temperaturowe test
-            Eventbool = false;
-            SaveLoop.ShowDialog();
-            double TMIN, TMAX;
-            double.TryParse(textBox5.Text, out TMIN);  //16,5
-            double.TryParse(textBox6.Text, out TMAX);
-            if (help.CheckTemp(TMIN, TMAX) == false)
+            if (Tscan.IsAlive == false)
             {
-                MessageBox.Show("Przekroczono parametry pomiarowe, proces przestrajania nie może się rozpocząć.");
-                return;
+                Eventbool = false;
+                SaveLoop.ShowDialog();
+                double TMIN, TMAX;
+                double.TryParse(textBox5.Text, out TMIN);  //16,5
+                double.TryParse(textBox6.Text, out TMAX);
+                if (help.CheckTemp(TMIN, TMAX) == false)
+                {
+                    MessageBox.Show("Przekroczono parametry pomiarowe, proces przestrajania nie może się rozpocząć.");
+                    return;
+                }
+                Tscan = new Thread(TSCAN);
+                Tscan.Start();
             }
-            Tscan = new Thread(TSCAN);
-            Tscan.Start();
+            else
+            {
+                Tscan.Abort();
+                MessageBox.Show("Przerwano proces przestrajania");
+            }
         }
 
         private void zedGraphControl2_Load(object sender, EventArgs e)
@@ -1285,10 +1301,18 @@ namespace Laser
         private void button5_Click(object sender, EventArgs e)
         {
             // Przestrajanie VT próba
-            SaveLoop.ShowDialog();
-            Eventbool = false;
-            VTscan = new Thread(VTSCAN);
-            VTscan.Start();
+            if (VTscan.IsAlive == false)
+            {
+                SaveLoop.ShowDialog();
+                Eventbool = false;
+                VTscan = new Thread(VTSCAN);
+                VTscan.Start();
+            }
+            else
+            {
+                VTscan.Abort();
+                MessageBox.Show("Przerwano proces przestrajania");
+            }
         }
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
@@ -1446,7 +1470,7 @@ namespace Laser
             Laser.Properties.Settings.Default.ScalingParameter = 1;
             Laser.Properties.Settings.Default.TriggerParameter = false;
             Laser.Properties.Settings.Default.Save();
-            AdvancedLoopk();
+            AdvancedScanK.Start();
 
         }
 
@@ -2397,6 +2421,11 @@ namespace Laser
             {
                 Environment.Exit(Environment.ExitCode);
             }
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            
         }
 
         private void SaveLoop_FileOk(object sender, CancelEventArgs e)

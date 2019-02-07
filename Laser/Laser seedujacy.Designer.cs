@@ -180,6 +180,7 @@
             this.button14 = new System.Windows.Forms.Button();
             this.Testbox = new System.Windows.Forms.TextBox();
             this.SaveLoop = new System.Windows.Forms.SaveFileDialog();
+            this.button15 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1541,7 +1542,7 @@
             this.groupBox13.Controls.Add(this.Radiooscylo);
             this.groupBox13.Location = new System.Drawing.Point(458, 509);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(213, 133);
+            this.groupBox13.Size = new System.Drawing.Size(242, 133);
             this.groupBox13.TabIndex = 49;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "Opcje wykresu";
@@ -1761,11 +1762,22 @@
             // 
             this.SaveLoop.FileOk += new System.ComponentModel.CancelEventHandler(this.SaveLoop_FileOk);
             // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(751, 199);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(75, 23);
+            this.button15.TabIndex = 58;
+            this.button15.Text = "button15";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1622, 812);
+            this.Controls.Add(this.button15);
             this.Controls.Add(this.Testbox);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
@@ -1981,6 +1993,7 @@
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.TextBox Testbox;
         private System.Windows.Forms.SaveFileDialog SaveLoop;
+        private System.Windows.Forms.Button button15;
     }
 }
 
