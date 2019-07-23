@@ -89,6 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdvancedMeasurements.cs" />
+    <Compile Include="obslugaNW.cs" />
     <Compile Include="ScalingParameters.cs" />
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>

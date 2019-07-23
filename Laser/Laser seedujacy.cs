@@ -47,8 +47,8 @@ namespace Laser
         obsługaAdWina AW;
         AdvancedMeasurements Advanced;
         StringBuilder SB, SBoscyl, SBloop;
-        ThreadStart VSCAN, TSCAN, VTSCAN, TLO, ADVANCEDSCANK, ADVANCEDSCANNM, ADVANCEDSCANTHZ; 
-        Thread Vscan, Tscan, VTscan, Tlo, AdvancedScanK, AdvancedScannm, AdvancedScanthz;
+        ThreadStart VSCAN, TSCAN, VTSCAN, TLO, ADVANCEDSCANK, ADVANCEDSCANNM, ADVANCEDSCANTHZ, WMTESTER; 
+        Thread Vscan, Tscan, VTscan, Tlo, AdvancedScanK, AdvancedScannm, AdvancedScanthz, wmtester;
         public static EventWaitHandle EWHprzestroj;
         EventWaitHandle EWHustawiono;
         DateTime thisDay = DateTime.Today;
@@ -71,7 +71,9 @@ namespace Laser
             VTSCAN = new ThreadStart(PrzestrajanieVTpróba);
             ADVANCEDSCANK = new ThreadStart(AdvancedLoopk);
             TLO = new ThreadStart(RysowanieWykresów);
+            WMTESTER = new ThreadStart(SeederCheckerFunction);
             Tlo = new Thread(TLO);
+            wmtester = new Thread(WMTESTER);
             Vscan = new Thread(VSCAN);
             Tscan = new Thread(TSCAN);
             VTscan = new Thread(VTSCAN);
@@ -2450,6 +2452,7 @@ namespace Laser
         }
         private void SeederCheckerFunction()
         {
+            obslugaNW ONW = new obslugaNW();
             double TMIN, TMAX, StepT, TPOM, i, j, p, r, IN = 60000;
             double VMIN, VMAX, StepV, VPOM, OSmin, OSmax, POM;
             int x, y;
@@ -2505,9 +2508,12 @@ namespace Laser
                     Thread.Sleep(stoperV);
                     stopWatch.Stop();         //Stoper zatrzymuje sie bez wlaczenia
                     Stoper = stopWatch.ElapsedMilliseconds;
-                    SB.Append(Stoper + "    " + TPOM + "    " + VPOM);
                     SBloop.Append(Stoper + "    " + TPOM + "    " + VPOM);
-                    Wykonajpomiar();
+                    var WM = obslugaNW.odczytajPrazkiPierwszyIntenf();
+                    foreach (var z in WM)
+                    {
+                        SBloop.Append(z.ToString() + " ");
+                    }
                     StreamLoop.Write(SBloop);
                     stopWatch.Start();
                     SBloop.Clear();
@@ -2522,7 +2528,7 @@ namespace Laser
         }
         private void SeederChecker_Click(object sender, EventArgs e)
         {
-
+            wmtester.Start();
         }
 
         private void SaveLoop_FileOk(object sender, CancelEventArgs e)
