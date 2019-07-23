@@ -2448,6 +2448,82 @@ namespace Laser
         {
             
         }
+        private void SeederCheckerFunction()
+        {
+            double TMIN, TMAX, StepT, TPOM, i, j, p, r, IN = 60000;
+            double VMIN, VMAX, StepV, VPOM, OSmin, OSmax, POM;
+            int x, y;
+            SBloop = new StringBuilder();
+            int stoper = Kroktprad;
+            double.TryParse(textBox5.Text, out Tempmin);
+            double.TryParse(textBox6.Text, out Tempmax);
+            double.TryParse(textBox7.Text, out Kroktemp);
+            int.TryParse(textBox4.Text, out Kroktprad);
+            double.TryParse(TextBox1.Text, out Napięciemin);
+            double.TryParse(textBox2.Text, out Napięciemax);
+            double.TryParse(textBox3.Text, out Krokprad);
+            int.TryParse(textBox8.Text, out Krokttemp);
+            TMIN = Convert.ToDouble(Tempmin);
+            TMAX = Convert.ToDouble(Tempmax);
+            StepT = Convert.ToDouble(Kroktemp);
+            VMIN = Convert.ToDouble(Napięciemin);
+            VMAX = Convert.ToDouble(Napięciemax);
+            StepV = Convert.ToDouble(Krokprad);
+            OSmin = VMIN;
+            OSmax = VMAX;
+            r = (TMAX - TMIN) / StepT;
+            p = (VMAX - VMIN) / StepV;
+            StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName);
+            int stoperV = Kroktprad, stoperT = Krokttemp;
+            TPOM = TMIN;
+            VPOM = VMIN;
+            stopWatch.Start();
+            SBloop.Append("Czas (ms) " + " Temperatura " + " Prąd (mA)");
+            Intro();
+            for (i = 0; i <= r; i++)
+            {
+                TPOM = TMIN + i * StepT;
+                x = scalingParameters.SkalNaTemp(TPOM);
+                AW.ustawTemp(x);         //trzeba sprawdzic stopnie
+                Thread.Sleep(stoperT);
+                stopWatch.Stop();
+                Stoper = stopWatch.ElapsedMilliseconds;
+                stopWatch.Start();
+                for (j = 0; j <= p; j++)
+                {
+                    if (TriggerY.Checked)
+                    {
+                        if (EWHprzestroj.WaitOne())
+                        {
+
+                        }
+                    }
+
+                    VPOM = VMIN + j * StepV;
+                    y = scalingParameters.SkalNaPrad(VPOM);
+                    AW.ustawPrad(y);         //Trzeba sprawdzic czy przyjmie miliwolty
+                    Thread.Sleep(stoperV);
+                    stopWatch.Stop();         //Stoper zatrzymuje sie bez wlaczenia
+                    Stoper = stopWatch.ElapsedMilliseconds;
+                    SB.Append(Stoper + "    " + TPOM + "    " + VPOM);
+                    SBloop.Append(Stoper + "    " + TPOM + "    " + VPOM);
+                    Wykonajpomiar();
+                    StreamLoop.Write(SBloop);
+                    stopWatch.Start();
+                    SBloop.Clear();
+                    SBloop.Append("" + Environment.NewLine);
+                    EWHustawiono.Set();
+                }
+            }
+            stopWatch.Stop();
+            stopWatch.Reset();
+            StreamLoop.Close();
+            MessageBox.Show("Przestrajanie zakończone");
+        }
+        private void SeederChecker_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void SaveLoop_FileOk(object sender, CancelEventArgs e)
         {

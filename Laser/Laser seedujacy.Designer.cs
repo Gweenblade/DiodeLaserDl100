@@ -181,6 +181,7 @@
             this.Testbox = new System.Windows.Forms.TextBox();
             this.SaveLoop = new System.Windows.Forms.SaveFileDialog();
             this.button15 = new System.Windows.Forms.Button();
+            this.SeederChecker = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1764,7 +1765,7 @@
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(751, 199);
+            this.button15.Location = new System.Drawing.Point(722, 270);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(75, 23);
             this.button15.TabIndex = 58;
@@ -1772,11 +1773,22 @@
             this.button15.UseVisualStyleBackColor = true;
             this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
+            // SeederChecker
+            // 
+            this.SeederChecker.Location = new System.Drawing.Point(670, 158);
+            this.SeederChecker.Name = "SeederChecker";
+            this.SeederChecker.Size = new System.Drawing.Size(152, 36);
+            this.SeederChecker.TabIndex = 59;
+            this.SeederChecker.Text = "Seeder Checker";
+            this.SeederChecker.UseVisualStyleBackColor = true;
+            this.SeederChecker.Click += new System.EventHandler(this.SeederChecker_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1622, 812);
+            this.Controls.Add(this.SeederChecker);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.Testbox);
             this.Controls.Add(this.button14);
@@ -1994,6 +2006,7 @@
         private System.Windows.Forms.TextBox Testbox;
         private System.Windows.Forms.SaveFileDialog SaveLoop;
         private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button SeederChecker;
     }
 }
 

@@ -132,13 +132,13 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="AktualizacjaWykresu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAE1SURBVDhPY/hPJOg7P+2/84ZAKA8BiDLAf5vff/PVrv8t
-        1rj9t93gABWFAKIMsNvo+d9hk/d/x80+/x89egQVhQCCBjRf6PjvsSPwv8/ukP+5x0qgoghA0IDAfRH/
-        ww/F/I88EgcVQQV4DbDZ6fTf86DP/6DjIf9v374NFUUFDK2ne/+brHAGBxAymHJz+v+Ao0H/Y8/G/C+7
-        XAoVxQQMwdviwCEsPE/pv8IyHajwf7DmhAvx/wtuZUNFsAOwF3hmyvyXWqT+X3ON8X+r7Y7/Gy43gTUX
-        38n7f//+fbBCXAAeBiDbDTda/XfZ6/E/8nTk/9wbmf9nvZoClcUNUALRfKvdf+9DfmDbKx8UQ0XxA4xY
-        CD8V/j/9Sur/p0+fQkXwA6zR+PXrVyiLMMBqAClgoA34/x8AnE+n22Ez6F0AAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAATVJREFUOE9j+E8k6Ds/7b/zhkAoDwGIMsB/m99/89Wu/y3WuP233eAAFYUAogyw
+        2+j532GT93/HzT7/Hz16BBWFAIIGNF/o+O+xI/C/z+6Q/7nHSqCiCEDQgMB9Ef/DD8X8jzwSBxVBBXgN
+        sNnp9N/zoM//oOMh/2/fvg0VRQUMrad7/5uscAYHEDKYcnP6/4CjQf9jz8b8L7tcChXFBAzB2+LAISw8
+        T+m/wjIdqPB/sOaEC/H/C25lQ0WwA7AXeGbK/JdapP5fc43xf6vtjv8bLjeBNRffyft///59sEJcAB4G
+        INsNN1r9d9nr8T/ydOT/3BuZ/2e9mgKVxQ1QAtF8q91/70N+YNsrHxRDRfEDjFgIPxX+P/1K6v+nT59C
+        RfADrNH49etXKIswwGoAKWCgDfj/HwCcT6fbYTPoXQAAAABJRU5ErkJggg==
 </value>
   </data>
   <metadata name="SaveLoop.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
