@@ -2455,7 +2455,7 @@ namespace Laser
             obslugaNW ONW = new obslugaNW();
             double TMIN, TMAX, StepT, TPOM, i, j, p, r, IN = 60000;
             double VMIN, VMAX, StepV, VPOM, OSmin, OSmax, POM;
-            int x, y;
+            int x, y, averages, timeaverages;
             SBloop = new StringBuilder();
             int stoper = Kroktprad;
             double.TryParse(textBox5.Text, out Tempmin);
@@ -2472,6 +2472,8 @@ namespace Laser
             VMIN = Convert.ToDouble(Napięciemin);
             VMAX = Convert.ToDouble(Napięciemax);
             StepV = Convert.ToDouble(Krokprad);
+            int.TryParse(Averages.Text, out averages);
+            int.TryParse(TimeAverages.Text, out timeaverages);
             OSmin = VMIN;
             OSmax = VMAX;
             r = (TMAX - TMIN) / StepT;
@@ -2481,8 +2483,8 @@ namespace Laser
             TPOM = TMIN;
             VPOM = VMIN;
             stopWatch.Start();
-            SBloop.Append("Czas (ms) " + " Temperatura " + " Prąd (mA)");
-            Intro();
+            SBloop.Append("Czas (ms) " + " Temperatura " + " Prąd (mA)" + " Liczba Falowa (cm)");
+            SBloop.Append("" + Environment.NewLine);
             for (i = 0; i <= r; i++)
             {
                 TPOM = TMIN + i * StepT;
@@ -2506,18 +2508,20 @@ namespace Laser
                     y = scalingParameters.SkalNaPrad(VPOM);
                     AW.ustawPrad(y);         //Trzeba sprawdzic czy przyjmie miliwolty
                     Thread.Sleep(stoperV);
-                    stopWatch.Stop();         //Stoper zatrzymuje sie bez wlaczenia
-                    Stoper = stopWatch.ElapsedMilliseconds;
-                    SBloop.Append(Stoper + "    " + TPOM + "    " + VPOM);
-                    var WM = obslugaNW.odczytajPrazkiPierwszyIntenf();
-                    foreach (var z in WM)
+                    for (int k = 0; k < averages; k++)
                     {
-                        SBloop.Append(z.ToString() + " ");
+                        Stoper = stopWatch.ElapsedMilliseconds;
+                        SBloop.Append(Stoper + "    " + TPOM + "    " + VPOM + " " + Wavecontrol.Readcm() + " ");
+                        var WM = obslugaNW.odczytajPrazkiPierwszyIntenf();
+                        foreach (var z in WM)
+                        {
+                            SBloop.Append(z.ToString() + " ");
+                        }
+                        SBloop.Append("" + Environment.NewLine);
+                        StreamLoop.Write(SBloop);
+                        SBloop.Clear();
+                        Thread.Sleep(timeaverages);
                     }
-                    StreamLoop.Write(SBloop);
-                    stopWatch.Start();
-                    SBloop.Clear();
-                    SBloop.Append("" + Environment.NewLine);
                     EWHustawiono.Set();
                 }
             }
@@ -2528,6 +2532,7 @@ namespace Laser
         }
         private void SeederChecker_Click(object sender, EventArgs e)
         {
+            SaveLoop.ShowDialog();
             wmtester.Start();
         }
 
