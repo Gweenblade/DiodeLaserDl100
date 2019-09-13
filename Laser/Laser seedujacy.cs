@@ -49,8 +49,7 @@ namespace Laser
         StringBuilder SB, SBoscyl, SBloop;
         ThreadStart VSCAN, TSCAN, VTSCAN, TLO, ADVANCEDSCANK, ADVANCEDSCANNM, ADVANCEDSCANTHZ, WMTESTER; 
         Thread Vscan, Tscan, VTscan, Tlo, AdvancedScanK, AdvancedScannm, AdvancedScanthz, wmtester;
-        public static EventWaitHandle EWHprzestroj;
-        EventWaitHandle EWHustawiono;
+        public static EventWaitHandle EWHprzestroj, EWHustawiono;
         DateTime thisDay = DateTime.Today;
         Help help;
         ScalingParameters scalingParameters;
@@ -689,10 +688,7 @@ namespace Laser
                 {
                     if (TriggerY.Checked)
                     {
-                        if (EWHprzestroj.WaitOne())
-                        {
-
-                        }
+                        EWHprzestroj.WaitOne();
                     }
 
                        VPOM = VMIN + j * StepV;
@@ -703,6 +699,10 @@ namespace Laser
                         y = scalingParameters.SkalNaPrad(VPOM);
                         AW.ustawPrad(y);         //Trzeba sprawdzic czy przyjmie miliwolty
                         Thread.Sleep(stoperV);
+                        if(TriggerY.Checked)
+                        {
+                        EWHustawiono.Set();
+                        }
                         while (y != AW.odczytPrad())
                         {
                             Thread.Sleep(10);
@@ -716,7 +716,6 @@ namespace Laser
                         stopWatch.Start();
                         SBloop.Clear();
                         SBloop.Append("" + Environment.NewLine);
-                        EWHustawiono.Set();
                 }
             }
             stopWatch.Stop();
