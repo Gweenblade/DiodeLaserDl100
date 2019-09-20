@@ -230,7 +230,7 @@ namespace Laser
             POM = scalingParameters.Pradline(wartosc);
             zedGraphControl1.GraphPane.CurveList.Clear();
            
-            if (Pradindex > 300)
+            if (Pradindex > 1000)
             {
                 PPL1.RemoveAt(0);
                 PPL1.Add(Pradindex, POM);
@@ -255,7 +255,7 @@ namespace Laser
             POM = scalingParameters.Templine(wartosc);
             zedGraphControl2.GraphPane.CurveList.Clear();
             PPL2.Add(Tempindex, POM);
-            if (Tempindex > 300)
+            if (Tempindex > 1000)
             {
                 PPL2.RemoveAt(0);
                 PPL2.Add(Tempindex, POM);
