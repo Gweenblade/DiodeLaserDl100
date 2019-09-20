@@ -182,6 +182,7 @@
             this.SaveLoop = new System.Windows.Forms.SaveFileDialog();
             this.button15 = new System.Windows.Forms.Button();
             this.SeederChecker = new System.Windows.Forms.Button();
+            this.RadioNothingDrawn = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1125,8 +1126,6 @@
             // Checkoscylo
             // 
             this.Checkoscylo.AutoSize = true;
-            this.Checkoscylo.Checked = true;
-            this.Checkoscylo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Checkoscylo.Location = new System.Drawing.Point(3, 110);
             this.Checkoscylo.Name = "Checkoscylo";
             this.Checkoscylo.Size = new System.Drawing.Size(141, 17);
@@ -1146,9 +1145,6 @@
             // 
             // CheckMHz
             // 
-            this.CheckMHz.AutoSize = true;
-            this.CheckMHz.Checked = true;
-            this.CheckMHz.CheckState = System.Windows.Forms.CheckState.Checked;
             this.CheckMHz.Location = new System.Drawing.Point(3, 63);
             this.CheckMHz.Name = "CheckMHz";
             this.CheckMHz.Size = new System.Drawing.Size(121, 17);
@@ -1536,6 +1532,7 @@
             // 
             // groupBox13
             // 
+            this.groupBox13.Controls.Add(this.RadioNothingDrawn);
             this.groupBox13.Controls.Add(this.AktualizacjaWykresu);
             this.groupBox13.Controls.Add(this.Combooscylo);
             this.groupBox13.Controls.Add(this.Combofalo);
@@ -1589,7 +1586,7 @@
             // Radiofalo
             // 
             this.Radiofalo.AutoSize = true;
-            this.Radiofalo.Location = new System.Drawing.Point(14, 85);
+            this.Radiofalo.Location = new System.Drawing.Point(13, 85);
             this.Radiofalo.Name = "Radiofalo";
             this.Radiofalo.Size = new System.Drawing.Size(69, 17);
             this.Radiofalo.TabIndex = 1;
@@ -1599,12 +1596,10 @@
             // Radiooscylo
             // 
             this.Radiooscylo.AutoSize = true;
-            this.Radiooscylo.Checked = true;
-            this.Radiooscylo.Location = new System.Drawing.Point(14, 33);
+            this.Radiooscylo.Location = new System.Drawing.Point(13, 32);
             this.Radiooscylo.Name = "Radiooscylo";
             this.Radiooscylo.Size = new System.Drawing.Size(80, 17);
             this.Radiooscylo.TabIndex = 0;
-            this.Radiooscylo.TabStop = true;
             this.Radiooscylo.Text = "Oscyloskop";
             this.Radiooscylo.UseVisualStyleBackColor = true;
             this.Radiooscylo.CheckedChanged += new System.EventHandler(this.Radiooscylo_CheckedChanged);
@@ -1782,6 +1777,18 @@
             this.SeederChecker.Text = "Seeder Checker";
             this.SeederChecker.UseVisualStyleBackColor = true;
             this.SeederChecker.Click += new System.EventHandler(this.SeederChecker_Click);
+            // 
+            // RadioNothingDrawn
+            // 
+            this.RadioNothingDrawn.AutoSize = true;
+            this.RadioNothingDrawn.Checked = true;
+            this.RadioNothingDrawn.Location = new System.Drawing.Point(13, 58);
+            this.RadioNothingDrawn.Name = "RadioNothingDrawn";
+            this.RadioNothingDrawn.Size = new System.Drawing.Size(87, 17);
+            this.RadioNothingDrawn.TabIndex = 54;
+            this.RadioNothingDrawn.TabStop = true;
+            this.RadioNothingDrawn.Text = "Brak pomiaru";
+            this.RadioNothingDrawn.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -2007,6 +2014,7 @@
         private System.Windows.Forms.SaveFileDialog SaveLoop;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button SeederChecker;
+        private System.Windows.Forms.RadioButton RadioNothingDrawn;
     }
 }
 
