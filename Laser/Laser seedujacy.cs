@@ -36,6 +36,8 @@ namespace Laser
         int Pradindex = 0, Tempindex = 0, lambdaindex = 0, MHzindex = 0, kindex = 0, calkaindex = 0;
         bool pause = false, Graphrubber = false, Threadkiller = false;
         Stopwatch stopWatch = new Stopwatch();
+        Stopwatch stopWatchV = new Stopwatch();
+        Stopwatch stopWatchT = new Stopwatch();
         PointPairList PPL1 = new PointPairList();
         PointPairList PPL2 = new PointPairList();
         PointPairList PPL = new PointPairList();
@@ -49,7 +51,7 @@ namespace Laser
         StringBuilder SB, SBoscyl, SBloop;
         ThreadStart VSCAN, TSCAN, VTSCAN, TLO, ADVANCEDSCANK, ADVANCEDSCANNM, ADVANCEDSCANTHZ, WMTESTER; 
         Thread Vscan, Tscan, VTscan, Tlo, AdvancedScanK, AdvancedScannm, AdvancedScanthz, wmtester;
-        public static EventWaitHandle EWHprzestroj, EWHustawiono;
+        public static EventWaitHandle EWHprzestroj, EWHustawiono, EWHbreak,EWHendoftuning;
         DateTime thisDay = DateTime.Today;
         Help help;
         ScalingParameters scalingParameters;
@@ -78,6 +80,8 @@ namespace Laser
             VTscan = new Thread(VTSCAN);
             AdvancedScanK = new Thread(ADVANCEDSCANK);
             EWHprzestroj = new EventWaitHandle(false, EventResetMode.AutoReset, "PRZESTROJ");
+            EWHbreak = new EventWaitHandle(false, EventResetMode.AutoReset, "ZATRZYMAJ");
+            EWHendoftuning = new EventWaitHandle(false, EventResetMode.AutoReset, "KONIEC");
             try
             {
                 EWHustawiono = EventWaitHandle.OpenExisting("USTAWIONO");
@@ -229,15 +233,14 @@ namespace Laser
             wartosc = AW.odczytPrad();
             POM = scalingParameters.Pradline(wartosc);
             zedGraphControl1.GraphPane.CurveList.Clear();
-           
             if (Pradindex > 1000)
             {
                 PPL1.RemoveAt(0);
-                PPL1.Add(Pradindex, POM);
+                PPL1.Add(stopWatchV.ElapsedMilliseconds/1000, POM);
             }
             else
             {
-                PPL1.Add(Pradindex, POM);
+                PPL1.Add(stopWatchV.ElapsedMilliseconds / 1000, POM);
             }
             zedGraphControl1.GraphPane.XAxis.Title.Text = "Czas (s)";
             zedGraphControl1.GraphPane.YAxis.Title.Text = "Prąd (mA)";
@@ -254,15 +257,14 @@ namespace Laser
             wartosc = AW.odczytTemp();
             POM = scalingParameters.Templine(wartosc);
             zedGraphControl2.GraphPane.CurveList.Clear();
-            PPL2.Add(Tempindex, POM);
             if (Tempindex > 1000)
             {
                 PPL2.RemoveAt(0);
-                PPL2.Add(Tempindex, POM);
+                PPL2.Add(stopWatchT.ElapsedMilliseconds / 1000, POM);
             }
             else
             {
-                PPL2.Add(Tempindex, POM);
+                PPL2.Add(stopWatchT.ElapsedMilliseconds / 1000, POM);
             }
             zedGraphControl2.GraphPane.XAxis.Title.Text = "Czas (s)";
             zedGraphControl2.GraphPane.YAxis.Title.Text = "Temperatura (°C)";
@@ -674,6 +676,10 @@ namespace Laser
                 }
                 TPOM = TMIN + i * StepT;
                 x = scalingParameters.SkalNaTemp(TPOM);
+                if (TriggerY.Checked)
+                {
+                    Thread.Sleep(500); // 12:14 23.09 - Warunek w kwesii bezpieczeństwa ze nie dojdzie do przestrojenia temp. w trakcie pomiaru
+                }
                 AW.ustawTemp(x);         //trzeba sprawdzic stopnie
                 Thread.Sleep(stoperT);
                 while (x != IN)
@@ -1317,34 +1323,16 @@ namespace Laser
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //Zatrzymanie
-            if (pause == false)
+            DialogResult dialog = MessageBox.Show("Zatrzymać pomiar?", "",   
+            MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialog == DialogResult.Yes)
             {
-                DialogResult dialog = MessageBox.Show("Czy proces ma zostać zatrzymany?", "",   
-                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (dialog == DialogResult.Yes)
-                {
-                    pause = !pause;
-                }
-            }
-            else
-            {
-               DialogResult dialog1 = MessageBox.Show("Czy proces ma zostać wznowiony?", "",    
-               MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (dialog1 == DialogResult.Yes)
-                {
-                    pause = !pause;
-                }
-            }
-            if (pause == false)
-            {
-                button3.BackColor = Color.Green;
-                button3.Text = ("Stop");
-            }
-            else
-            {
-                button3.BackColor = Color.Red;
-                button3.Text = ("Start");
+                EWHbreak.Set();
+                if (Tlo.IsAlive) Tlo.Abort();
+                if (wmtester.IsAlive) wmtester.Abort();
+                if (VTscan.IsAlive) VTscan.Abort();
+                if (Vscan.IsAlive) Vscan.Abort();
+                if (Tscan.IsAlive) Tscan.Abort();
             }
         }
 
@@ -1838,6 +1826,8 @@ namespace Laser
         bool Oscylbutton = false;
         private void ButtOscyl_Click(object sender, EventArgs e)
         {
+            stopWatchV.Start();
+            stopWatchT.Start();
             if (Oscylbutton == false)
             {
                 this.Grafrys.BackColor = Color.Green;
@@ -1848,7 +1838,7 @@ namespace Laser
             else
             {
                 this.Grafrys.BackColor = Color.Red;
-                Tlo.Abort();
+                if(Tlo.IsAlive) Tlo.Abort();
                 Oscylbutton = false;
             }
         }

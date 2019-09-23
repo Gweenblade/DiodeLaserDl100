@@ -160,6 +160,7 @@
             this.StabAMax = new System.Windows.Forms.TextBox();
             this.saveFileDialog2 = new System.Windows.Forms.SaveFileDialog();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.RadioNothingDrawn = new System.Windows.Forms.RadioButton();
             this.AktualizacjaWykresu = new System.Windows.Forms.Button();
             this.Combooscylo = new System.Windows.Forms.ComboBox();
             this.Combofalo = new System.Windows.Forms.ComboBox();
@@ -182,7 +183,6 @@
             this.SaveLoop = new System.Windows.Forms.SaveFileDialog();
             this.button15 = new System.Windows.Forms.Button();
             this.SeederChecker = new System.Windows.Forms.Button();
-            this.RadioNothingDrawn = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1155,8 +1155,6 @@
             // Checkk
             // 
             this.Checkk.AutoSize = true;
-            this.Checkk.Checked = true;
-            this.Checkk.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Checkk.Location = new System.Drawing.Point(3, 39);
             this.Checkk.Name = "Checkk";
             this.Checkk.Size = new System.Drawing.Size(91, 17);
@@ -1167,8 +1165,6 @@
             // Checknm
             // 
             this.Checknm.AutoSize = true;
-            this.Checknm.Checked = true;
-            this.Checknm.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Checknm.Location = new System.Drawing.Point(3, 16);
             this.Checknm.Name = "Checknm";
             this.Checknm.Size = new System.Drawing.Size(106, 17);
@@ -1545,6 +1541,18 @@
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "Opcje wykresu";
             // 
+            // RadioNothingDrawn
+            // 
+            this.RadioNothingDrawn.AutoSize = true;
+            this.RadioNothingDrawn.Checked = true;
+            this.RadioNothingDrawn.Location = new System.Drawing.Point(13, 58);
+            this.RadioNothingDrawn.Name = "RadioNothingDrawn";
+            this.RadioNothingDrawn.Size = new System.Drawing.Size(87, 17);
+            this.RadioNothingDrawn.TabIndex = 54;
+            this.RadioNothingDrawn.TabStop = true;
+            this.RadioNothingDrawn.Text = "Brak pomiaru";
+            this.RadioNothingDrawn.UseVisualStyleBackColor = true;
+            // 
             // AktualizacjaWykresu
             // 
             this.AktualizacjaWykresu.Image = ((System.Drawing.Image)(resources.GetObject("AktualizacjaWykresu.Image")));
@@ -1617,7 +1625,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(655, 779);
+            this.label29.Location = new System.Drawing.Point(693, 779);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(90, 13);
             this.label29.TabIndex = 50;
@@ -1777,18 +1785,6 @@
             this.SeederChecker.Text = "Seeder Checker";
             this.SeederChecker.UseVisualStyleBackColor = true;
             this.SeederChecker.Click += new System.EventHandler(this.SeederChecker_Click);
-            // 
-            // RadioNothingDrawn
-            // 
-            this.RadioNothingDrawn.AutoSize = true;
-            this.RadioNothingDrawn.Checked = true;
-            this.RadioNothingDrawn.Location = new System.Drawing.Point(13, 58);
-            this.RadioNothingDrawn.Name = "RadioNothingDrawn";
-            this.RadioNothingDrawn.Size = new System.Drawing.Size(87, 17);
-            this.RadioNothingDrawn.TabIndex = 54;
-            this.RadioNothingDrawn.TabStop = true;
-            this.RadioNothingDrawn.Text = "Brak pomiaru";
-            this.RadioNothingDrawn.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
