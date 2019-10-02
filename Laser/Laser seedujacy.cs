@@ -720,6 +720,7 @@ namespace Laser
                         SBloop.Append("" + Environment.NewLine);
                 }
             }
+            EWHendoftuning.Set();
             stopWatch.Stop();
             stopWatch.Reset();
             StreamLoop.Close();
