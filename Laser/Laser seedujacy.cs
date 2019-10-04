@@ -1391,7 +1391,7 @@ namespace Laser
             // Przestrajanie VT próba
             if (VTscan.IsAlive == false)
             {
-                button2.BackColor = Color.MediumVioletRed;
+                button5.BackColor = Color.MediumVioletRed;
                 SaveLoop.ShowDialog();
                 Eventbool = false;
                 VTscan = new Thread(VTSCAN);
@@ -1401,7 +1401,7 @@ namespace Laser
             else
             {
                 Grafrys.PerformClick();
-                button2.BackColor = Color.White;
+                button5.BackColor = Color.White;
                 VTscan.Abort();
                 MessageBox.Show("Przerwano proces przestrajania");
             }
