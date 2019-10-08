@@ -2592,11 +2592,11 @@ namespace Laser
                     for (int k = 0; k < averages; k++)
                     {
                         Stoper = stopWatch.ElapsedMilliseconds;
-                        SBloop.Append(Stoper + "    " + TPOM + "    " + VPOM + " " + Wavecontrol.Readcm() + " ");
+                        SBloop.Append(Stoper + ":" + TPOM + ":" + VPOM + ":" + Wavecontrol.Readcm() + ":" + obslugaNW.odczytszerokosci() + ':');
                         var WM = obslugaNW.odczytajPrazkiPierwszyIntenf();
                         foreach (var z in WM)
                         {
-                            SBloop.Append(z.ToString() + " ");
+                            SBloop.Append(z.ToString() + ":");
                         }
                         SBloop.Append("" + Environment.NewLine);
                         StreamLoop.Write(SBloop);
