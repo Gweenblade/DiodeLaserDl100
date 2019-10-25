@@ -181,7 +181,7 @@
             this.button14 = new System.Windows.Forms.Button();
             this.Testbox = new System.Windows.Forms.TextBox();
             this.SaveLoop = new System.Windows.Forms.SaveFileDialog();
-            this.button15 = new System.Windows.Forms.Button();
+            this.FastSwap = new System.Windows.Forms.Button();
             this.SeederChecker = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -1766,15 +1766,15 @@
             // 
             this.SaveLoop.FileOk += new System.ComponentModel.CancelEventHandler(this.SaveLoop_FileOk);
             // 
-            // button15
+            // FastSwap
             // 
-            this.button15.Location = new System.Drawing.Point(722, 270);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 23);
-            this.button15.TabIndex = 58;
-            this.button15.Text = "button15";
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
+            this.FastSwap.Location = new System.Drawing.Point(706, 213);
+            this.FastSwap.Name = "FastSwap";
+            this.FastSwap.Size = new System.Drawing.Size(75, 23);
+            this.FastSwap.TabIndex = 58;
+            this.FastSwap.Text = "Fast swap";
+            this.FastSwap.UseVisualStyleBackColor = true;
+            this.FastSwap.Click += new System.EventHandler(this.button15_Click);
             // 
             // SeederChecker
             // 
@@ -1792,7 +1792,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1622, 812);
             this.Controls.Add(this.SeederChecker);
-            this.Controls.Add(this.button15);
+            this.Controls.Add(this.FastSwap);
             this.Controls.Add(this.Testbox);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
@@ -2008,7 +2008,7 @@
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.TextBox Testbox;
         private System.Windows.Forms.SaveFileDialog SaveLoop;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button FastSwap;
         private System.Windows.Forms.Button SeederChecker;
         private System.Windows.Forms.RadioButton RadioNothingDrawn;
     }
