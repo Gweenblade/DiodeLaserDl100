@@ -183,6 +183,7 @@
             this.SaveLoop = new System.Windows.Forms.SaveFileDialog();
             this.FastSwap = new System.Windows.Forms.Button();
             this.SeederChecker = new System.Windows.Forms.Button();
+            this.DL100Tuning = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -238,9 +239,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(6, 19);
+            this.button1.Location = new System.Drawing.Point(6, 42);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 47);
+            this.button1.Size = new System.Drawing.Size(93, 34);
             this.button1.TabIndex = 2;
             this.button1.Text = "Przestrajanie prądowe";
             this.button1.UseVisualStyleBackColor = true;
@@ -248,7 +249,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(102, 19);
+            this.button2.Location = new System.Drawing.Point(102, 29);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(93, 47);
             this.button2.TabIndex = 3;
@@ -469,7 +470,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(6, 72);
+            this.button5.Location = new System.Drawing.Point(6, 78);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(93, 47);
             this.button5.TabIndex = 31;
@@ -1214,6 +1215,7 @@
             // 
             // groupBox8
             // 
+            this.groupBox8.Controls.Add(this.DL100Tuning);
             this.groupBox8.Controls.Add(this.groupBox7);
             this.groupBox8.Controls.Add(this.TriggerN);
             this.groupBox8.Controls.Add(this.TriggerY);
@@ -1359,7 +1361,7 @@
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(102, 72);
+            this.button16.Location = new System.Drawing.Point(102, 78);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(93, 47);
             this.button16.TabIndex = 50;
@@ -1725,7 +1727,7 @@
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(722, 314);
+            this.button11.Location = new System.Drawing.Point(747, 199);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(75, 23);
             this.button11.TabIndex = 54;
@@ -1747,7 +1749,7 @@
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(722, 356);
+            this.button14.Location = new System.Drawing.Point(747, 226);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(75, 23);
             this.button14.TabIndex = 56;
@@ -1757,7 +1759,7 @@
             // 
             // Testbox
             // 
-            this.Testbox.Location = new System.Drawing.Point(706, 407);
+            this.Testbox.Location = new System.Drawing.Point(706, 255);
             this.Testbox.Name = "Testbox";
             this.Testbox.Size = new System.Drawing.Size(100, 20);
             this.Testbox.TabIndex = 57;
@@ -1768,7 +1770,7 @@
             // 
             // FastSwap
             // 
-            this.FastSwap.Location = new System.Drawing.Point(706, 213);
+            this.FastSwap.Location = new System.Drawing.Point(670, 199);
             this.FastSwap.Name = "FastSwap";
             this.FastSwap.Size = new System.Drawing.Size(75, 23);
             this.FastSwap.TabIndex = 58;
@@ -1785,6 +1787,16 @@
             this.SeederChecker.Text = "Seeder Checker";
             this.SeederChecker.UseVisualStyleBackColor = true;
             this.SeederChecker.Click += new System.EventHandler(this.SeederChecker_Click);
+            // 
+            // DL100Tuning
+            // 
+            this.DL100Tuning.Location = new System.Drawing.Point(6, 19);
+            this.DL100Tuning.Name = "DL100Tuning";
+            this.DL100Tuning.Size = new System.Drawing.Size(93, 23);
+            this.DL100Tuning.TabIndex = 60;
+            this.DL100Tuning.Text = "Przestr. DL 100";
+            this.DL100Tuning.UseVisualStyleBackColor = true;
+            this.DL100Tuning.Click += new System.EventHandler(this.DL100Tuning_Click);
             // 
             // Form1
             // 
@@ -2011,6 +2023,7 @@
         private System.Windows.Forms.Button FastSwap;
         private System.Windows.Forms.Button SeederChecker;
         private System.Windows.Forms.RadioButton RadioNothingDrawn;
+        private System.Windows.Forms.Button DL100Tuning;
     }
 }
 

@@ -49,8 +49,8 @@ namespace Laser
         obsługaAdWina AW;
         AdvancedMeasurements Advanced;
         StringBuilder SB, SBoscyl, SBloop;
-        ThreadStart VSCAN, TSCAN, VTSCAN, TLO, ADVANCEDSCANK, ADVANCEDSCANNM, ADVANCEDSCANTHZ, WMTESTER; 
-        Thread Vscan, Tscan, VTscan, Tlo, AdvancedScanK, AdvancedScannm, AdvancedScanthz, wmtester;
+        ThreadStart VSCAN, TSCAN, VTSCAN, TLO, ADVANCEDSCANK, ADVANCEDSCANNM, ADVANCEDSCANTHZ, WMTESTER, DL100tuning; 
+        Thread Vscan, Tscan, VTscan, Tlo, AdvancedScanK, AdvancedScannm, AdvancedScanthz, wmtester, DL100TUNING;
         public static EventWaitHandle EWHprzestroj, EWHustawiono, EWHbreak,EWHendoftuning;
         DateTime thisDay = DateTime.Today;
         Help help;
@@ -79,6 +79,8 @@ namespace Laser
             Tscan = new Thread(TSCAN);
             VTscan = new Thread(VTSCAN);
             AdvancedScanK = new Thread(ADVANCEDSCANK);
+            DL100tuning = new ThreadStart(DL100Vtuningf);
+            DL100TUNING = new Thread(DL100tuning);
             EWHprzestroj = new EventWaitHandle(false, EventResetMode.AutoReset, "PRZESTROJ");
             EWHbreak = new EventWaitHandle(false, EventResetMode.AutoReset, "ZATRZYMAJ");
             EWHendoftuning = new EventWaitHandle(false, EventResetMode.AutoReset, "KONIEC");
@@ -2473,7 +2475,84 @@ namespace Laser
                 e.Handled = true;
             }
         }
+        bool dlmarker = false;
+        private void DL100Tuning_Click(object sender, EventArgs e)
+        {
+            if (!dlmarker)
+            {
+                DL100TUNING.Start();
+                Grafrys.PerformClick();
+            }
+            else
+                DL100TUNING.Abort();
+            dlmarker = true;
+        }
+        private void DL100Vtuningf()
+        {
+            PointPairList PPL1 = new PointPairList();
+            PointPairList PPL2 = new PointPairList();
+            double TMIN, TMAX, StepT, TPOM, i, j, p, r, IN = 60000;
+            double VMIN, VMAX, StepV, VPOM, OSmin, OSmax, POM;
+            int x, y;
+            SB = new StringBuilder();
+            SBloop = new StringBuilder();
+            int stoper = Kroktprad;
+            double.TryParse(textBox5.Text, out Tempmin);
+            double.TryParse(textBox6.Text, out Tempmax);
+            double.TryParse(textBox7.Text, out Kroktemp);
+            int.TryParse(textBox4.Text, out Kroktprad);
+            double.TryParse(TextBox1.Text, out Napięciemin);
+            double.TryParse(textBox2.Text, out Napięciemax);
+            double.TryParse(textBox3.Text, out Krokprad);
+            int.TryParse(textBox8.Text, out Krokttemp);
+            TMIN = Convert.ToDouble(Tempmin);
+            TMAX = Convert.ToDouble(Tempmax);
+            StepT = Convert.ToDouble(Kroktemp);
+            VMIN = Convert.ToDouble(Napięciemin);
+            VMAX = Convert.ToDouble(Napięciemax);
+            StepV = Convert.ToDouble(Krokprad);
+            OSmin = VMIN;
+            OSmax = VMAX;
+            r = (TMAX - TMIN) / StepT;
+            p = (VMAX - VMIN) / StepV;
+            int stoperV = Kroktprad, stoperT = Krokttemp;
+            TPOM = TMIN;
+            VPOM = VMIN;
+            stopWatch.Start();
+            SB.Append("Czas (ms) " + " Temperatura " + " Prąd (mA)");
+            Intro();
+                for (j = 0; j <= p; j++)
+                {
+                    if (TriggerY.Checked)
+                    {
+                        EWHprzestroj.WaitOne();
+                    }
 
+                    VPOM = VMIN + j * StepV;
+                    while (pause == true)
+                    {
+                        Thread.Sleep(100);
+                    }
+                    y = scalingParameters.SkalNaPrad(VPOM);
+                    AW.ustawPrad(y);         //Trzeba sprawdzic czy przyjmie miliwolty
+                    Thread.Sleep(stoperV);
+                    if (TriggerY.Checked)
+                    {
+                        EWHustawiono.Set();
+                    }
+                    while (y != AW.odczytPrad())
+                    {
+                        Thread.Sleep(10);
+                    }
+                    Stoper = stopWatch.ElapsedMilliseconds;
+                    SBloop.Clear();
+                    SBloop.Append("" + Environment.NewLine);
+                }
+            EWHendoftuning.Set();
+            stopWatch.Stop();
+            stopWatch.Reset();
+            MessageBox.Show("Przestrajanie zakończone");
+        }
         private void button11_Click(object sender, EventArgs e)
         {
             int HALPME = 0;
