@@ -1391,22 +1391,32 @@ namespace Laser
         private void button5_Click(object sender, EventArgs e)
         {
             // Przestrajanie VT próba
-            if (VTscan.IsAlive == false)
+            double minV, maxV, minT, maxT;
+            double.TryParse(TextBox1.Text, out minV);
+            double.TryParse(textBox2.Text, out maxV);
+            double.TryParse(textBox5.Text, out minT);
+            double.TryParse(textBox6.Text, out maxT);
+            if (help.AllConditions(minV, maxV, minT, maxT))
             {
-                button5.BackColor = Color.MediumVioletRed;
-                SaveLoop.ShowDialog();
-                Eventbool = false;
-                VTscan = new Thread(VTSCAN);
-                VTscan.Start();
-                Grafrys.PerformClick();
+                if (VTscan.IsAlive == false)
+                {
+                    button5.BackColor = Color.MediumVioletRed;
+                    SaveLoop.ShowDialog();
+                    Eventbool = false;
+                    VTscan = new Thread(VTSCAN);
+                    VTscan.Start();
+                    Grafrys.PerformClick();
+                }
+                else
+                {
+                    Grafrys.PerformClick();
+                    button5.BackColor = Color.White;
+                    VTscan.Abort();
+                    MessageBox.Show("Przerwano proces przestrajania");
+                }
             }
             else
-            {
-                Grafrys.PerformClick();
-                button5.BackColor = Color.White;
-                VTscan.Abort();
-                MessageBox.Show("Przerwano proces przestrajania");
-            }
+                MessageBox.Show("Przekroczono parametry pomiarowe");
         }
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)

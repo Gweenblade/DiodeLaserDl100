@@ -51,13 +51,13 @@
       <Value Profile="(Default)">0</Value>
     </Setting>
     <Setting Name="Dioda2MaxV" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">100</Value>
+      <Value Profile="(Default)">120</Value>
     </Setting>
     <Setting Name="Dioda2MinT" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">0</Value>
+      <Value Profile="(Default)">5</Value>
     </Setting>
     <Setting Name="Dioda2MaxT" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">100</Value>
+      <Value Profile="(Default)">45</Value>
     </Setting>
     <Setting Name="Dioda3MinV" Type="System.Double" Scope="User">
       <Value Profile="(Default)">0</Value>

@@ -129,6 +129,7 @@
             this.button20 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.DL100Tuning = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.AveN = new System.Windows.Forms.RadioButton();
             this.AveY = new System.Windows.Forms.RadioButton();
@@ -183,7 +184,6 @@
             this.SaveLoop = new System.Windows.Forms.SaveFileDialog();
             this.FastSwap = new System.Windows.Forms.Button();
             this.SeederChecker = new System.Windows.Forms.Button();
-            this.DL100Tuning = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -368,7 +368,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(82, 20);
             this.textBox5.TabIndex = 16;
-            this.textBox5.Text = "2,8";
+            this.textBox5.Text = "4";
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             this.textBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox5_KeyPress);
             // 
@@ -378,7 +378,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(82, 20);
             this.textBox6.TabIndex = 17;
-            this.textBox6.Text = "49,5";
+            this.textBox6.Text = "40";
             this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             this.textBox6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox6_KeyPress);
             // 
@@ -388,7 +388,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(82, 20);
             this.textBox7.TabIndex = 18;
-            this.textBox7.Text = "0,1";
+            this.textBox7.Text = "0.5";
             this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             this.textBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox7_KeyPress);
             // 
@@ -1232,6 +1232,16 @@
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Bez triggera zewnętrznego";
             // 
+            // DL100Tuning
+            // 
+            this.DL100Tuning.Location = new System.Drawing.Point(6, 19);
+            this.DL100Tuning.Name = "DL100Tuning";
+            this.DL100Tuning.Size = new System.Drawing.Size(93, 23);
+            this.DL100Tuning.TabIndex = 60;
+            this.DL100Tuning.Text = "Przestr. DL 100";
+            this.DL100Tuning.UseVisualStyleBackColor = true;
+            this.DL100Tuning.Click += new System.EventHandler(this.DL100Tuning_Click);
+            // 
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.AveN);
@@ -1704,10 +1714,12 @@
             // Dioda2
             // 
             this.Dioda2.AutoSize = true;
+            this.Dioda2.Checked = true;
             this.Dioda2.Location = new System.Drawing.Point(83, 21);
             this.Dioda2.Name = "Dioda2";
             this.Dioda2.Size = new System.Drawing.Size(62, 17);
             this.Dioda2.TabIndex = 1;
+            this.Dioda2.TabStop = true;
             this.Dioda2.Text = "Dioda 2";
             this.Dioda2.UseVisualStyleBackColor = true;
             this.Dioda2.CheckedChanged += new System.EventHandler(this.Dioda2_CheckedChanged);
@@ -1715,12 +1727,10 @@
             // Dioda1
             // 
             this.Dioda1.AutoSize = true;
-            this.Dioda1.Checked = true;
             this.Dioda1.Location = new System.Drawing.Point(7, 22);
             this.Dioda1.Name = "Dioda1";
             this.Dioda1.Size = new System.Drawing.Size(62, 17);
             this.Dioda1.TabIndex = 0;
-            this.Dioda1.TabStop = true;
             this.Dioda1.Text = "Dioda 1";
             this.Dioda1.UseVisualStyleBackColor = true;
             this.Dioda1.CheckedChanged += new System.EventHandler(this.Dioda1_CheckedChanged);
@@ -1787,16 +1797,6 @@
             this.SeederChecker.Text = "Seeder Checker";
             this.SeederChecker.UseVisualStyleBackColor = true;
             this.SeederChecker.Click += new System.EventHandler(this.SeederChecker_Click);
-            // 
-            // DL100Tuning
-            // 
-            this.DL100Tuning.Location = new System.Drawing.Point(6, 19);
-            this.DL100Tuning.Name = "DL100Tuning";
-            this.DL100Tuning.Size = new System.Drawing.Size(93, 23);
-            this.DL100Tuning.TabIndex = 60;
-            this.DL100Tuning.Text = "Przestr. DL 100";
-            this.DL100Tuning.UseVisualStyleBackColor = true;
-            this.DL100Tuning.Click += new System.EventHandler(this.DL100Tuning_Click);
             // 
             // Form1
             // 

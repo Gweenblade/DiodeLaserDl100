@@ -1063,3 +1063,38 @@ C:\Users\Tomek\Desktop\Krystian Puczka Programy\DiodeLaserDl100\Laser\obj\Debug\
 C:\Users\Tomek\Desktop\Krystian Puczka Programy\DiodeLaserDl100\Laser\obj\Debug\Laser.Form2.resources
 C:\Users\Tomek\Desktop\Krystian Puczka Programy\DiodeLaserDl100\Laser\obj\Debug\Laser.Properties.Resources.resources
 C:\Users\Tomek\Desktop\Krystian Puczka Programy\DiodeLaserDl100\Laser\obj\Debug\Laser.csproj.GenerateResource.Cache
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\Laser.exe.config
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\Laser.exe
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\Laser.pdb
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\ADwin.Driver.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\NationalInstruments.VisaNS.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\Oscyloskop.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\OscyloskopT1.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\ZedGraph.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\DIODE_LASER_CONTROL.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\ALEX_EXPERIMENT.pdb
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\ALEX_EXPERIMENT.exe.config
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\ZedGraph.xml
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\DIODE_LASER_CONTROL.pdb
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\obj\Debug\Laser.csprojAssemblyReference.cache
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\obj\Debug\Laser.exe.config
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\obj\Debug\Laser.Form1.resources
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\obj\Debug\Laser.Form2.resources
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\obj\Debug\Laser.Properties.Resources.resources
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\obj\Debug\Laser.csproj.GenerateResource.cache
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\obj\Debug\Laser.csproj.CopyComplete
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\obj\Debug\Laser.exe
+C:\Users\KPdoc\Desktop\Doktorat\Repozytoria Git\DiodeLaser\Laser\obj\Debug\Laser.pdb

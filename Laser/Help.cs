@@ -8,9 +8,9 @@ namespace Laser
 {
     class Help
     {
-        public bool AllConditions(double a,double b, double c, double d)
+        public bool AllConditions(double minV ,double maxV, double minT, double maxT)
         {
-            if(ToLowV(a) == true && ToHighV(b) == true && ToLowT(c) == true && ToHighT(d) == true)
+            if(ToLowV(minV) == true && ToHighV(maxV) == true && ToLowT(minT) == true && ToHighT(maxT) == true)
             {
                 return true;
             }
@@ -46,7 +46,7 @@ namespace Laser
 
         public bool ToLowV(double x)
         {
-            int checkD = Laser.Properties.Settings.Default.ChecklistDiode;
+            int checkD = Laser.Properties.Settings.Default.ChosenDiode;
             double V;
             switch (checkD)
             {
@@ -88,7 +88,7 @@ namespace Laser
 
         public bool ToHighV(double x)
         {
-            int checkD = Laser.Properties.Settings.Default.ChecklistDiode;
+            int checkD = Laser.Properties.Settings.Default.ChosenDiode;
             double V;
             switch (checkD)
             {
@@ -129,7 +129,7 @@ namespace Laser
 
         public bool ToLowT(double x)
         {
-            int checkD = Laser.Properties.Settings.Default.ChecklistDiode;
+            int checkD = Laser.Properties.Settings.Default.ChosenDiode;
             double T;
             switch (checkD)
             {
@@ -170,7 +170,7 @@ namespace Laser
 
         public bool ToHighT(double x)
         {
-            int checkD = Laser.Properties.Settings.Default.ChecklistDiode;
+            int checkD = Laser.Properties.Settings.Default.ChosenDiode;
             double T;
             switch (checkD)
             {
