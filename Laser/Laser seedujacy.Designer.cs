@@ -184,6 +184,7 @@
             this.SaveLoop = new System.Windows.Forms.SaveFileDialog();
             this.FastSwap = new System.Windows.Forms.Button();
             this.SeederChecker = new System.Windows.Forms.Button();
+            this.RepeatTB = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -334,7 +335,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(315, 16);
+            this.textBox2.Location = new System.Drawing.Point(293, 16);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(94, 20);
             this.textBox2.TabIndex = 13;
@@ -354,7 +355,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(315, 43);
+            this.textBox4.Location = new System.Drawing.Point(293, 43);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(94, 20);
             this.textBox4.TabIndex = 15;
@@ -510,6 +511,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.RepeatTB);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.TextBox1);
             this.groupBox1.Controls.Add(this.label2);
@@ -1798,6 +1800,13 @@
             this.SeederChecker.UseVisualStyleBackColor = true;
             this.SeederChecker.Click += new System.EventHandler(this.SeederChecker_Click);
             // 
+            // RepeatTB
+            // 
+            this.RepeatTB.Location = new System.Drawing.Point(393, 29);
+            this.RepeatTB.Name = "RepeatTB";
+            this.RepeatTB.Size = new System.Drawing.Size(16, 20);
+            this.RepeatTB.TabIndex = 60;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2024,6 +2033,7 @@
         private System.Windows.Forms.Button SeederChecker;
         private System.Windows.Forms.RadioButton RadioNothingDrawn;
         private System.Windows.Forms.Button DL100Tuning;
+        private System.Windows.Forms.TextBox RepeatTB;
     }
 }
 

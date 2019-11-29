@@ -641,7 +641,8 @@ namespace Laser
             PointPairList PPL2 = new PointPairList();
             double TMIN, TMAX, StepT, TPOM, i, j, p, r, IN = 60000;
             double VMIN, VMAX, StepV, VPOM, OSmin, OSmax, POM;
-            int x, y;
+            int x, y, repeatCT = 0, repeatValue = 0;
+            int.TryParse(RepeatTB.Text, out repeatValue);
             SB = new StringBuilder();
             SBloop = new StringBuilder();
             int stoper = Kroktprad;
@@ -690,7 +691,7 @@ namespace Laser
                     Thread.Sleep(10);
                 }
                 Stoper = stopWatch.ElapsedMilliseconds;
-                for (j = 0; j <= p; j++)
+                for (j = 0; j <= p ; j++)
                 {
                     if (TriggerY.Checked)
                     {
@@ -720,6 +721,11 @@ namespace Laser
                         StreamLoop.Write(SBloop);
                         SBloop.Clear();
                         SBloop.Append("" + Environment.NewLine);
+                    if( j == p && repeatCT < repeatValue)
+                    {
+                        j = 0;
+                        repeatCT++;
+                    }
                 }
             }
             EWHendoftuning.Set();
