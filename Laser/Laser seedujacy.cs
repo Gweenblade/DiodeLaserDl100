@@ -2624,40 +2624,42 @@ namespace Laser
 
         private void button15_Click(object sender, EventArgs e)
         {
-            PointPairList PPL1 = new PointPairList();
-            PointPairList PPL2 = new PointPairList();
-            double TMIN, TMAX, StepT, TPOM, i, j, p, r, IN = 60000;
-            double VMIN, VMAX, StepV, VPOM, OSmin, OSmax, POM;
-            int x, y;
-            SB = new StringBuilder();
-            SBloop = new StringBuilder();
-            int stoper = Kroktprad;
-            double.TryParse(textBox5.Text, out Tempmin);
-            double.TryParse(textBox6.Text, out Tempmax);
-            double.TryParse(textBox7.Text, out Kroktemp);
-            int.TryParse(textBox4.Text, out Kroktprad);
-            double.TryParse(TextBox1.Text, out Napięciemin);
-            double.TryParse(textBox2.Text, out Napięciemax);
-            double.TryParse(textBox3.Text, out Krokprad);
-            int.TryParse(textBox8.Text, out Krokttemp);
-            TMIN = Convert.ToDouble(Tempmin);
-            TMAX = Convert.ToDouble(Tempmax);
-            StepT = Convert.ToDouble(Kroktemp);
-            VMIN = Convert.ToDouble(Napięciemin);
-            VMAX = Convert.ToDouble(Napięciemax);
-            StepV = Convert.ToDouble(Krokprad);
-            OSmin = VMIN;
-            OSmax = VMAX;
-            r = (TMAX - TMIN) / StepT;
-            p = (VMAX - VMIN) / StepV;
-            StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName);
-            int stoperV = Kroktprad, stoperT = Krokttemp;
-            TPOM = TMIN;
-            VPOM = VMIN;
-            stopWatch.Start();
-            SB.Append("Czas (ms) " + " Temperatura " + " Prąd (mA)");
-            Intro();
-            for (j = 0; j <= 1000; j++)
+            Task task = Task.Run(() =>
+            {
+                PointPairList PPL1 = new PointPairList();
+                PointPairList PPL2 = new PointPairList();
+                double TMIN, TMAX, StepT, TPOM, i, j, p, r, IN = 60000;
+                double VMIN, VMAX, StepV, VPOM, OSmin, OSmax, POM;
+                int x, y;
+                SB = new StringBuilder();
+                SBloop = new StringBuilder();
+                int stoper = Kroktprad;
+                double.TryParse(textBox5.Text, out Tempmin);
+                double.TryParse(textBox6.Text, out Tempmax);
+                double.TryParse(textBox7.Text, out Kroktemp);
+                int.TryParse(textBox4.Text, out Kroktprad);
+                double.TryParse(TextBox1.Text, out Napięciemin);
+                double.TryParse(textBox2.Text, out Napięciemax);
+                double.TryParse(textBox3.Text, out Krokprad);
+                int.TryParse(textBox8.Text, out Krokttemp);
+                TMIN = Convert.ToDouble(Tempmin);
+                TMAX = Convert.ToDouble(Tempmax);
+                StepT = Convert.ToDouble(Kroktemp);
+                VMIN = Convert.ToDouble(Napięciemin);
+                VMAX = Convert.ToDouble(Napięciemax);
+                StepV = Convert.ToDouble(Krokprad);
+                OSmin = VMIN;
+                OSmax = VMAX;
+                r = (TMAX - TMIN) / StepT;
+                p = (VMAX - VMIN) / StepV;
+                StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName);
+                int stoperV = Kroktprad, stoperT = Krokttemp;
+                TPOM = TMIN;
+                VPOM = VMIN;
+                stopWatch.Start();
+                SB.Append("Czas (ms) " + " Temperatura " + " Prąd (mA)");
+                Intro();
+                for (j = 0; j <= 1000; j++)
                 {
                     if (TriggerY.Checked)
                     {
@@ -2666,15 +2668,15 @@ namespace Laser
                     while (pause == true)
                     {
                         Thread.Sleep(100);
-                    }   
-                    if(j % 2 == 0)
-                        {
-                            AW.ustawPrad(scalingParameters.SkalNaPrad(VMIN));
-                        }
+                    }
+                    if (j % 2 == 0)
+                    {
+                        AW.ustawPrad(scalingParameters.SkalNaPrad(VMIN));
+                    }
                     else
-                         {
-                            AW.ustawPrad(scalingParameters.SkalNaPrad(VMAX));
-                         }
+                    {
+                        AW.ustawPrad(scalingParameters.SkalNaPrad(VMAX));
+                    }
                     Thread.Sleep(stoperV);
                     if (TriggerY.Checked)
                     {
@@ -2688,11 +2690,12 @@ namespace Laser
                     SBloop.Clear();
                     SBloop.Append("" + Environment.NewLine);
                 }
-            EWHendoftuning.Set();
-            stopWatch.Stop();
-            stopWatch.Reset();
-            StreamLoop.Close();
-            MessageBox.Show("Przestrajanie zakończone");
+                EWHendoftuning.Set();
+                stopWatch.Stop();
+                stopWatch.Reset();
+                StreamLoop.Close();
+                MessageBox.Show("Przestrajanie zakończone");
+            });
         }
         private void SeederCheckerFunction()
         {
