@@ -2672,10 +2672,12 @@ namespace Laser
                     if (j % 2 == 0)
                     {
                         AW.ustawPrad(scalingParameters.SkalNaPrad(VMIN));
+                        VPOM = VMIN;
                     }
                     else
                     {
                         AW.ustawPrad(scalingParameters.SkalNaPrad(VMAX));
+                        VPOM = VMAX;
                     }
                     Thread.Sleep(stoperV);
                     if (TriggerY.Checked)
