@@ -2624,6 +2624,7 @@ namespace Laser
 
         private void button15_Click(object sender, EventArgs e)
         {
+            SaveLoop.ShowDialog();
             Task task = Task.Run(() =>
             {
                 PointPairList PPL1 = new PointPairList();
