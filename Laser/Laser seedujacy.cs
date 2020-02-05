@@ -49,9 +49,9 @@ namespace Laser
         obsługaAdWina AW;
         AdvancedMeasurements Advanced;
         StringBuilder SB, SBoscyl, SBloop;
-        ThreadStart VSCAN, TSCAN, VTSCAN, TLO, ADVANCEDSCANK, ADVANCEDSCANNM, ADVANCEDSCANTHZ, WMTESTER, DL100tuning; 
+        ThreadStart VSCAN, TSCAN, VTSCAN, TLO, ADVANCEDSCANK, ADVANCEDSCANNM, ADVANCEDSCANTHZ, WMTESTER, DL100tuning;
         Thread Vscan, Tscan, VTscan, Tlo, AdvancedScanK, AdvancedScannm, AdvancedScanthz, wmtester, DL100TUNING;
-        public static EventWaitHandle EWHprzestroj, EWHustawiono, EWHbreak,EWHendoftuning;
+        public static EventWaitHandle EWHprzestroj, EWHustawiono, EWHbreak, EWHendoftuning;
         DateTime thisDay = DateTime.Today;
         Help help;
         ScalingParameters scalingParameters;
@@ -93,7 +93,7 @@ namespace Laser
                 System.Windows.Forms.MessageBox.Show("PROBLEM: " + ex.Message);
                 EWHustawiono = new EventWaitHandle(false, EventResetMode.AutoReset, "USTAWIONO");
             }
-          
+
         }
         private void Bla()
         {
@@ -101,7 +101,7 @@ namespace Laser
         }
         void RysowanieWykresów()
         {
-            while(true)
+            while (true)
             {
                 if (Graphrubber == true)
                 {
@@ -117,16 +117,16 @@ namespace Laser
                     if (Laser.Properties.Settings.Default.Graphsettingoption == 0)
                         RysujWF(Oscyl.os.czytajW0(1));
                     else
-                    if(Laser.Properties.Settings.Default.Graphsettingoption == 1)
+                    if (Laser.Properties.Settings.Default.Graphsettingoption == 1)
                         Rysujcalke();
                 }
-                if(Radiofalo.Checked)
+                if (Radiofalo.Checked)
                 {
                     if (Laser.Properties.Settings.Default.Graphsettingoption == 2)
                         Rysujlambda();
                     if (Laser.Properties.Settings.Default.Graphsettingoption == 3)
                         RysujTHz();
-                    if(Laser.Properties.Settings.Default.Graphsettingoption == 4)
+                    if (Laser.Properties.Settings.Default.Graphsettingoption == 4)
                         Rysujk();
                 }
                 Rysujprad();
@@ -174,7 +174,7 @@ namespace Laser
             WAVEFORM = new double[2500];
             WAVEFORM = Oscyl.os.czytajW0(1);
             double sum = 0, sr = 0;
-            for(i=0; i < 2500; i++)
+            for (i = 0; i < 2500; i++)
             {
                 sum = sum + WAVEFORM[i];
             }
@@ -210,7 +210,7 @@ namespace Laser
                 sum = sum + WAVEFORM[i];
             }
             sr = sum;
-            if(calkaindex > 300)
+            if (calkaindex > 300)
             {
                 PPLcalka.RemoveAt(0);
                 PPLcalka.Add(calkaindex, sr);
@@ -238,7 +238,7 @@ namespace Laser
             if (Pradindex > 1000)
             {
                 PPL1.RemoveAt(0);
-                PPL1.Add(stopWatchV.ElapsedMilliseconds/1000, POM);
+                PPL1.Add(stopWatchV.ElapsedMilliseconds / 1000, POM);
             }
             else
             {
@@ -453,7 +453,7 @@ namespace Laser
             }
             if (Checkk.Checked == true)
             {
-                for(i = 0; i < ave; i++)
+                for (i = 0; i < ave; i++)
                 {
                     SB.Append(" " + WAVENT[i]);
                     SBloop.Append(" " + WAVENT[i]);
@@ -540,33 +540,33 @@ namespace Laser
             {
                 if (TriggerY.Checked)
                 {
-                    if(EWHprzestroj.WaitOne())
+                    if (EWHprzestroj.WaitOne())
                     {
 
                     }
                 }
-                    while (pause == true)
-                    {
-                        Thread.Sleep(100);
-                    }
-                    VPOM = VMIN + i * StepV;
-                    x = scalingParameters.SkalNaPrad(VPOM);
-                    AW.ustawPrad(x);         //Trzeba sprawdzic czy przyjmie miliwolty
-                    Thread.Sleep(stoper);
-                    while (x != AW.odczytPrad())
-                    {
-                        Thread.Sleep(10);
-                    }
-                    stopWatch.Stop();         //Stoper zatrzymuje sie bez wlaczenia
-                    Stoper = stopWatch.ElapsedMilliseconds;
-                    SB.Append(Stoper + "    " + VPOM);
-                    SBloop.Append(Stoper + "    " + VPOM);
-                    Wykonajpomiar();
-                    StreamLoop.Write(SBloop);
-                    SBloop.Clear();  
-                    SBloop.Append("" + Environment.NewLine);
-                    stopWatch.Start();
-                    EWHustawiono.Set(); 
+                while (pause == true)
+                {
+                    Thread.Sleep(100);
+                }
+                VPOM = VMIN + i * StepV;
+                x = scalingParameters.SkalNaPrad(VPOM);
+                AW.ustawPrad(x);         //Trzeba sprawdzic czy przyjmie miliwolty
+                Thread.Sleep(stoper);
+                while (x != AW.odczytPrad())
+                {
+                    Thread.Sleep(10);
+                }
+                stopWatch.Stop();         //Stoper zatrzymuje sie bez wlaczenia
+                Stoper = stopWatch.ElapsedMilliseconds;
+                SB.Append(Stoper + "    " + VPOM);
+                SBloop.Append(Stoper + "    " + VPOM);
+                Wykonajpomiar();
+                StreamLoop.Write(SBloop);
+                SBloop.Clear();
+                SBloop.Append("" + Environment.NewLine);
+                stopWatch.Start();
+                EWHustawiono.Set();
             }
             stopWatch.Stop();
             stopWatch.Reset();
@@ -606,28 +606,28 @@ namespace Laser
                     }
                 }
                 while (pause == true)
-                    {
-                        Thread.Sleep(100);
-                    }
-                    TPOM = TMIN + i * StepT;
-                    x = scalingParameters.SkalNaTemp(TPOM);
-                    AW.ustawTemp(x);
-                  Thread.Sleep(stoper);
-                  while (x != IN)
-                    {
-                        IN = AW.odczytTemp();
-                        Thread.Sleep(10);
-                    }
-                    stopWatch.Stop();
-                    Stoper = stopWatch.ElapsedMilliseconds;
-                    stopWatch.Start();
-                    SB.Append(Stoper + "    " + TPOM );
-                    SBloop.Append(Stoper + "    " + TPOM);
-                    Wykonajpomiar();
-                    StreamLoop.Write(SBloop);
-                    SBloop.Clear();
-                    SBloop.Append("" + Environment.NewLine);
-                    EWHustawiono.Set();
+                {
+                    Thread.Sleep(100);
+                }
+                TPOM = TMIN + i * StepT;
+                x = scalingParameters.SkalNaTemp(TPOM);
+                AW.ustawTemp(x);
+                Thread.Sleep(stoper);
+                while (x != IN)
+                {
+                    IN = AW.odczytTemp();
+                    Thread.Sleep(10);
+                }
+                stopWatch.Stop();
+                Stoper = stopWatch.ElapsedMilliseconds;
+                stopWatch.Start();
+                SB.Append(Stoper + "    " + TPOM);
+                SBloop.Append(Stoper + "    " + TPOM);
+                Wykonajpomiar();
+                StreamLoop.Write(SBloop);
+                SBloop.Clear();
+                SBloop.Append("" + Environment.NewLine);
+                EWHustawiono.Set();
             }
             stopWatch.Stop();
             stopWatch.Reset();
@@ -637,6 +637,7 @@ namespace Laser
 
         private void PrzestrajanieVTpróba()
         {
+            EventWaitHandle EWHfilesave = new EventWaitHandle(false, EventResetMode.AutoReset, "ZAPISUJE DO PLIKU");
             PointPairList PPL1 = new PointPairList();
             PointPairList PPL2 = new PointPairList();
             double TMIN, TMAX, StepT, TPOM, i, j, p, r, IN = 60000;
@@ -664,12 +665,11 @@ namespace Laser
             OSmax = VMAX;
             r = (TMAX - TMIN) / StepT;
             p = (VMAX - VMIN) / StepV;
-            StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName);
             int stoperV = Kroktprad, stoperT = Krokttemp;
             TPOM = TMIN;
             VPOM = VMIN;
             stopWatch.Start();
-            SB.Append("Czas (ms) " + " Temperatura " + " Prąd (mA)" );
+            SB.Append("Czas (ms) " + " Temperatura " + " Prąd (mA)");
             Intro();
             for (i = 0; i <= r; i++)
             {
@@ -681,7 +681,7 @@ namespace Laser
                 x = scalingParameters.SkalNaTemp(TPOM);
                 if (TriggerY.Checked)
                 {
-                    Thread.Sleep(500); // 12:14 23.09 - Warunek w kwesii bezpieczeństwa ze nie dojdzie do przestrojenia temp. w trakcie pomiaru
+                    Thread.Sleep(150); // 12:14 23.09 - Warunek w kwesii bezpieczeństwa ze nie dojdzie do przestrojenia temp. w trakcie pomiaru
                 }
                 AW.ustawTemp(x);         //trzeba sprawdzic stopnie
                 Thread.Sleep(stoperT);
@@ -691,37 +691,39 @@ namespace Laser
                     Thread.Sleep(10);
                 }
                 Stoper = stopWatch.ElapsedMilliseconds;
-                for (j = 0; j <= p ; j++)
+                for (j = 0; j <= p; j++)
                 {
                     if (TriggerY.Checked)
                     {
                         EWHprzestroj.WaitOne();
                     }
 
-                       VPOM = VMIN + j * StepV;
-                        while (pause == true)
-                        {
-                            Thread.Sleep(100);
-                        }
-                        y = scalingParameters.SkalNaPrad(VPOM);
-                        AW.ustawPrad(y);         //Trzeba sprawdzic czy przyjmie miliwolty
-                        Thread.Sleep(stoperV);
-                        if(TriggerY.Checked)
-                        {
+                    VPOM = VMIN + j * StepV;
+                    while (pause == true)
+                    {
+                        Thread.Sleep(100);
+                    }
+                    y = scalingParameters.SkalNaPrad(VPOM);
+                    AW.ustawPrad(y);         //Trzeba sprawdzic czy przyjmie miliwolty
+                    Thread.Sleep(stoperV);
+                    while (y != AW.odczytPrad())
+                    {
+                        Thread.Sleep(10);
+                    }
+                    Stoper = stopWatch.ElapsedMilliseconds;
+                    SB.Append(Stoper + "    " + TPOM + "    " + VPOM);
+                    SBloop.Append(Stoper + ":" + TPOM + ":" + VPOM);
+                    Wykonajpomiar();
+                    using (StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName,true))
+                    {
+                        StreamLoop.Write("DFB " + SBloop + Environment.NewLine);
+                    }
+                    if (TriggerY.Checked)
+                    {
                         EWHustawiono.Set();
-                        }
-                        while (y != AW.odczytPrad())
-                        {
-                            Thread.Sleep(10);
-                        }
-                        Stoper = stopWatch.ElapsedMilliseconds;
-                        SB.Append(Stoper + "    " + TPOM + "    " + VPOM );
-                        SBloop.Append(Stoper + "    " + TPOM + "    " + VPOM);
-                        Wykonajpomiar();
-                        StreamLoop.Write(SBloop);
-                        SBloop.Clear();
-                        SBloop.Append("" + Environment.NewLine);
-                    if( j == p && repeatCT < repeatValue)
+                    }
+                    SBloop.Clear();
+                    if (j == p && repeatCT < repeatValue)
                     {
                         j = 0;
                         repeatCT++;
@@ -731,7 +733,6 @@ namespace Laser
             EWHendoftuning.Set();
             stopWatch.Stop();
             stopWatch.Reset();
-            StreamLoop.Close();
             MessageBox.Show("Przestrajanie zakończone");
         }
 
@@ -844,7 +845,7 @@ namespace Laser
         public void AdvancedLoopk()
         {
             //Ustalanie parametrów początkowych
-            double  step;
+            double step;
             int Tstep, Vstep;
             double.TryParse(TBstepcm.Text, out step);
             int.TryParse(CzasKTMS.Text, out Tstep);
@@ -868,7 +869,7 @@ namespace Laser
                 int.TryParse(TBstepnmVMS.Text, out Vstep);
             }
             double MinT = TempMinAdvanced, MaxT = TempMaxAdvanced, StepS = step;
-            int StepTV = Vstep,  StepTT = Tstep;
+            int StepTV = Vstep, StepTT = Tstep;
             MessageBox.Show("Działam" + MinT + MaxT + StepS + StepTV + StepTT);
             double TPOM;
             SB = new StringBuilder();
@@ -1154,7 +1155,7 @@ namespace Laser
         {
             // Min.napiecie
 
-           
+
             try
             {
                 double Napięciemin = double.Parse(TextBox1.Text);
@@ -1170,7 +1171,7 @@ namespace Laser
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             // Max.napiecie
-            
+
             try
             {
                 double Napięciemax = double.Parse(textBox2.Text);
@@ -1185,7 +1186,7 @@ namespace Laser
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
             // Min.temp
-            
+
             try
             {
                 double Tempmin = double.Parse(textBox5.Text);
@@ -1214,7 +1215,7 @@ namespace Laser
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
             //Krok prądowy
-            
+
             try
             {
                 double Krokprad = double.Parse(textBox3.Text);
@@ -1332,7 +1333,7 @@ namespace Laser
 
         private void button3_Click(object sender, EventArgs e)
         {
-            DialogResult dialog = MessageBox.Show("Zatrzymać pomiar?", "",   
+            DialogResult dialog = MessageBox.Show("Zatrzymać pomiar?", "",
             MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dialog == DialogResult.Yes)
             {
@@ -1350,7 +1351,7 @@ namespace Laser
 
         }
 
-       private void textBox9_TextChanged(object sender, EventArgs e)
+        private void textBox9_TextChanged(object sender, EventArgs e)
         {
             //Aktualny prąd
         }
@@ -1391,7 +1392,7 @@ namespace Laser
             {
                 Thread.Sleep(100);
             }
-           MessageBox.Show("Temperatura została ustalona");
+            MessageBox.Show("Temperatura została ustalona");
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -1451,14 +1452,14 @@ namespace Laser
             //Ustalanie napięcia
             double CurrentV;
             double.TryParse(textBox11.Text, out CurrentV);
-            if(help.CheckPrad(CurrentV,CurrentV) == false)
+            if (help.CheckPrad(CurrentV, CurrentV) == false)
             {
                 MessageBox.Show("Przekroczono parametry pomiarowe");
                 return;
             }
             int x = scalingParameters.SkalNaPrad(CurrentV);
             AW.ustawPrad(x);
-            while(x != AW.odczytPrad())
+            while (x != AW.odczytPrad())
             {
                 Thread.Sleep(100);
             }
@@ -1476,7 +1477,7 @@ namespace Laser
         private void button10_Click(object sender, EventArgs e)
         {
             // Odczyt temp
-            MessageBox.Show("Aktualna temperatura wynosi: "  + scalingParameters.Templine(AW.odczytTemp()) + "°C");
+            MessageBox.Show("Aktualna temperatura wynosi: " + scalingParameters.Templine(AW.odczytTemp()) + "°C");
         }
 
         private void PrzestrajanieV_Click(object sender, EventArgs e)
@@ -1506,7 +1507,7 @@ namespace Laser
             {
                 MessageBox.Show("Trwa przestrajanie, proszę czekać");
             }
-          //  PrzestrajanieTemp();
+            //  PrzestrajanieTemp();
         }
 
         private void PrzestrajanieTV_Click(object sender, EventArgs e)
@@ -1521,7 +1522,7 @@ namespace Laser
             {
                 MessageBox.Show("Trwa przestrajanie, proszę czekać");
             }
-           // PrzestrajanieNapTemp();
+            // PrzestrajanieNapTemp();
         }
 
         private void TextBox1_KeyPress(object sender, KeyPressEventArgs e)
@@ -1651,11 +1652,11 @@ namespace Laser
             double.TryParse(StabAMax.Text, out Amax);
             int y = scalingParameters.SkalNaPrad(Amin);
             if (textBox11 != StabAMin)
-                {
-                
+            {
+
                 AW.ustawPrad(y);
                 Thread.Sleep(500);
-                }
+            }
             if (help.CheckPrad(Amin, Amax) == false)
             {
                 MessageBox.Show("Przekroczono parametry pomiarowe");
@@ -1670,11 +1671,11 @@ namespace Laser
             StepT = StepT * 100;
             AW.ustawPrad(x);
             for (i = 1; i < StepT; i++)
-                {
-                SB.Append(i + " " + i * 10 + " " );
+            {
+                SB.Append(i + " " + i * 10 + " ");
                 Wykonajpomiar();
                 Thread.Sleep(10);
-                }
+            }
             AW.ustawPrad(y);
             MessageBox.Show("Powrócono do warunków początkowych");
         }
@@ -1754,7 +1755,7 @@ namespace Laser
                 AW.ustawPrad(y);
                 Thread.Sleep(500);
             }
-            if(textBox12 != StabTMin)
+            if (textBox12 != StabTMin)
             {
                 AW.ustawTemp(z);
                 Thread.Sleep(10000);
@@ -1857,7 +1858,7 @@ namespace Laser
             else
             {
                 this.Grafrys.BackColor = Color.Red;
-                if(Tlo.IsAlive) Tlo.Abort();
+                if (Tlo.IsAlive) Tlo.Abort();
                 Oscylbutton = false;
             }
         }
@@ -1883,7 +1884,7 @@ namespace Laser
         }
 
         private void button23_Click(object sender, EventArgs e)
-        { 
+        {
             Form f2 = new Form2();
             f2.ShowDialog();
         }
@@ -1998,7 +1999,7 @@ namespace Laser
 
         private void AktualizacjaWykresu_Click(object sender, EventArgs e)
         {
-            if(Combooscylo.SelectedIndex == 0)
+            if (Combooscylo.SelectedIndex == 0)
             {
                 Laser.Properties.Settings.Default.Graphsettingoption = 0;
                 Laser.Properties.Settings.Default.Save();
@@ -2031,7 +2032,7 @@ namespace Laser
 
 
 
-            if(tabControl1.SelectedTab == Cm)
+            if (tabControl1.SelectedTab == Cm)
             {
                 double.TryParse(TBmincm.Text, out min);
                 double.TryParse(TBmaxcm.Text, out max);
@@ -2537,33 +2538,33 @@ namespace Laser
             stopWatch.Start();
             SB.Append("Czas (ms) " + " Temperatura " + " Prąd (mA)");
             Intro();
-                for (j = 0; j <= p; j++)
+            for (j = 0; j <= p; j++)
+            {
+                if (TriggerY.Checked)
                 {
-                    if (TriggerY.Checked)
-                    {
-                        EWHprzestroj.WaitOne();
-                    }
-
-                    VPOM = VMIN + j * StepV;
-                    while (pause == true)
-                    {
-                        Thread.Sleep(100);
-                    }
-                    y = scalingParameters.SkalNaPrad(VPOM);
-                    AW.ustawPrad(y);         //Trzeba sprawdzic czy przyjmie miliwolty
-                    Thread.Sleep(stoperV);
-                    if (TriggerY.Checked)
-                    {
-                        EWHustawiono.Set();
-                    }
-                    while (y != AW.odczytPrad())
-                    {
-                        Thread.Sleep(10);
-                    }
-                    Stoper = stopWatch.ElapsedMilliseconds;
-                    SBloop.Clear();
-                    SBloop.Append("" + Environment.NewLine);
+                    EWHprzestroj.WaitOne();
                 }
+
+                VPOM = VMIN + j * StepV;
+                while (pause == true)
+                {
+                    Thread.Sleep(100);
+                }
+                y = scalingParameters.SkalNaPrad(VPOM);
+                AW.ustawPrad(y);         //Trzeba sprawdzic czy przyjmie miliwolty
+                Thread.Sleep(stoperV);
+                if (TriggerY.Checked)
+                {
+                    EWHustawiono.Set();
+                }
+                while (y != AW.odczytPrad())
+                {
+                    Thread.Sleep(10);
+                }
+                Stoper = stopWatch.ElapsedMilliseconds;
+                SBloop.Clear();
+                SBloop.Append("" + Environment.NewLine);
+            }
             EWHendoftuning.Set();
             stopWatch.Stop();
             stopWatch.Reset();
@@ -2571,52 +2572,19 @@ namespace Laser
         }
         private void button11_Click(object sender, EventArgs e)
         {
-            int HALPME = 0;
-            int i = 0;
-            // WAVEFORM = new double[2500];
-            // WAVEFORM = Oscyl.os.czytajW0(1);
-            double sum = 0, sr = 0;
-            while (HALPME < 500)
-            {
-
-                for (i = 0; i < 10; i++)
-                {
-                    sum = sum + 5; //WAVEFORM[i];
-                }
-                sr = sum;
-                MessageBox.Show("" + calkaindex);
-                if (calkaindex > 20)
-                {
-                    MessageBox.Show("kradne" + calkaindex);
-                    PPLcalka.RemoveAt(0);
-                    PPLcalka.Add(calkaindex, sr);
-                }
-                else
-                {
-                    PPLcalka.Add(calkaindex, sr);
-                }
-                zedGraphControl3.GraphPane.XAxis.Title.Text = "Czas (s)";
-                zedGraphControl3.GraphPane.YAxis.Title.Text = "Wartość całki sygnału";
-                zedGraphControl3.GraphPane.CurveList.Clear();
-                zedGraphControl3.GraphPane.AddCurve("Całka z sygnału oscyloskopu", PPLcalka, Color.Red, SymbolType.Star);
-                zedGraphControl3.AxisChange();
-                zedGraphControl3.Invalidate();
-                calkaindex = calkaindex + 1;
-                HALPME++;
-            }
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Czy chcesz wyzerować nadawany prąd i temperaturę?", "Kończenie pracy", MessageBoxButtons.YesNoCancel);
-            if(result == DialogResult.Yes)
+            if (result == DialogResult.Yes)
             {
                 AW.ustawPrad(0);
                 AW.ustawTemp(0);
 
                 Environment.Exit(Environment.ExitCode);
             }
-            else if(result == DialogResult.No)
+            else if (result == DialogResult.No)
             {
                 Environment.Exit(Environment.ExitCode);
             }
@@ -2805,7 +2773,7 @@ namespace Laser
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
         }
         void Check()
         {
@@ -2869,16 +2837,16 @@ namespace Laser
 
         private void Radiooscylo_CheckedChanged(object sender, EventArgs e)
         {
-            if(Radiofalo.Checked)
+            if (Radiofalo.Checked)
             {
                 Combooscylo.Enabled = false;
                 Combofalo.Enabled = true;
-                Combooscylo.Text ="-";
+                Combooscylo.Text = "-";
                 Graphrubber = true;
             }
             else
             {
-                Combooscylo.Enabled = true; 
+                Combooscylo.Enabled = true;
                 Combofalo.Enabled = false;
                 Combofalo.Text = "-";
                 Graphrubber = true;
