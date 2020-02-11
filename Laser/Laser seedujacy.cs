@@ -668,7 +668,6 @@ namespace Laser
             int stoperV = Kroktprad, stoperT = Krokttemp;
             TPOM = TMIN;
             VPOM = VMIN;
-            stopWatch.Start();
             SB.Append("Czas (ms) " + " Temperatura " + " Prąd (mA)");
             Intro();
             for (i = 0; i <= r; i++)
@@ -697,7 +696,7 @@ namespace Laser
                     {
                         EWHprzestroj.WaitOne();
                     }
-
+                    stopWatch.Start();
                     VPOM = VMIN + j * StepV;
                     while (pause == true)
                     {
