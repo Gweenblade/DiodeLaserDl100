@@ -689,14 +689,16 @@ namespace Laser
                     IN = AW.odczytTemp();
                     Thread.Sleep(10);
                 }
-                Stoper = stopWatch.ElapsedMilliseconds;
+                if(stopWatch.IsRunning)
+                    Stoper = stopWatch.ElapsedMilliseconds;
                 for (j = 0; j <= p; j++)
                 {
                     if (TriggerY.Checked)
                     {
                         EWHprzestroj.WaitOne();
                     }
-                    stopWatch.Start();
+                    if(!stopWatch.IsRunning)
+                        stopWatch.Start();
                     VPOM = VMIN + j * StepV;
                     while (pause == true)
                     {
