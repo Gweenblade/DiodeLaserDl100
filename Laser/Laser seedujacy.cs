@@ -655,6 +655,10 @@ namespace Laser
             double.TryParse(textBox2.Text, out Napięciemax);
             double.TryParse(textBox3.Text, out Krokprad);
             int.TryParse(textBox8.Text, out Krokttemp);
+            using (StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName, true))
+            {
+                StreamLoop.Write("");
+            }
             TMIN = Convert.ToDouble(Tempmin);
             TMAX = Convert.ToDouble(Tempmax);
             StepT = Convert.ToDouble(Kroktemp);
@@ -713,7 +717,7 @@ namespace Laser
                     }
                     Stoper = stopWatch.ElapsedMilliseconds;
                     SB.Append(Stoper + "    " + TPOM + "    " + VPOM);
-                    SBloop.Append(Stoper + ":" + TPOM + ":" + VPOM);
+                    SBloop.Append(Stoper + ":" + TPOM + ":" + VPOM +":");
                     Wykonajpomiar();
                     using (StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName,true))
                     {
