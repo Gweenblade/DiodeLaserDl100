@@ -392,7 +392,6 @@ namespace Laser
                 SBloop.Append(" Wskazania oscyloskopu");
             }
             SB.Append(Environment.NewLine);
-            SBloop.Append(Environment.NewLine);
         }
         public void Wykonajpomiar()
         {
