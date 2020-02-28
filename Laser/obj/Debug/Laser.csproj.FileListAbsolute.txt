@@ -991,7 +991,6 @@ C:\Users\kryst\OneDrive\Desktop\Studia\Git repozytoria\DiodeLaserDl100\Laser\obj
 C:\Users\kryst\OneDrive\Desktop\Studia\Git repozytoria\DiodeLaserDl100\Laser\obj\Debug\Laser.Form2.resources
 C:\Users\kryst\OneDrive\Desktop\Studia\Git repozytoria\DiodeLaserDl100\Laser\obj\Debug\Laser.Properties.Resources.resources
 C:\Users\kryst\OneDrive\Desktop\Studia\Git repozytoria\DiodeLaserDl100\Laser\obj\Debug\Laser.csproj.GenerateResource.cache
-C:\Users\kryst\OneDrive\Desktop\Studia\Git repozytoria\DiodeLaserDl100\Laser\obj\Debug\Laser.csproj.CoreCompileInputs.cache
 C:\Users\kryst\OneDrive\Desktop\Studia\Git repozytoria\DiodeLaserDl100\Laser\obj\Debug\Laser.csproj.CopyComplete
 C:\Users\kryst\OneDrive\Desktop\Studia\Git repozytoria\DiodeLaserDl100\Laser\obj\Debug\Laser.exe
 C:\Users\kryst\OneDrive\Desktop\Studia\Git repozytoria\DiodeLaserDl100\Laser\obj\Debug\Laser.pdb

@@ -2625,14 +2625,12 @@ namespace Laser
                 OSmax = VMAX;
                 r = (TMAX - TMIN) / StepT;
                 p = (VMAX - VMIN) / StepV;
-                StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName);
                 int stoperV = Kroktprad, stoperT = Krokttemp;
                 TPOM = TMIN;
                 VPOM = VMIN;
                 stopWatch.Start();
                 SB.Append("Czas (ms) " + " Temperatura " + " Prąd (mA)");
-                Intro();
-                for (j = 0; j <= 1000; j++)
+                for (j = 0; j <= 3000; j++)
                 {
                     if (TriggerY.Checked)
                     {
@@ -2653,22 +2651,23 @@ namespace Laser
                         VPOM = VMAX;
                     }
                     Thread.Sleep(stoperV);
+                    Stoper = stopWatch.ElapsedMilliseconds;
+                    SB.Append(Stoper + "    " + TPOM + "    " + VPOM);
+                    SBloop.Append(Stoper + ":" + TPOM + ":" + VPOM + ":");
+                    using (StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName, true))
+                    {
+                        StreamLoop.Write("DFB " + SBloop + Environment.NewLine);
+                    }
+                    SBloop.Clear();
+                    SBloop.Append("" + Environment.NewLine);
                     if (TriggerY.Checked)
                     {
                         EWHustawiono.Set();
                     }
-                    Stoper = stopWatch.ElapsedMilliseconds;
-                    SB.Append(Stoper + "    " + TPOM + "    " + VPOM);
-                    SBloop.Append(Stoper + "    " + TPOM + "    " + VPOM);
-                    Wykonajpomiar();
-                    StreamLoop.Write(SBloop);
-                    SBloop.Clear();
-                    SBloop.Append("" + Environment.NewLine);
                 }
                 EWHendoftuning.Set();
                 stopWatch.Stop();
                 stopWatch.Reset();
-                StreamLoop.Close();
                 MessageBox.Show("Przestrajanie zakończone");
             });
         }
