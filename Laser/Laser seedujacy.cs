@@ -2638,7 +2638,7 @@ namespace Laser
                 VPOM = VMIN;
                 stopWatch.Start();
                 SB.Append("Czas (ms) " + " Temperatura " + " Prąd (mA)");
-                for (j = 0; j <= 3000; j++)
+                for (j = 0; j <= 3000 || !StopTheMeasurements; j++)
                 {
                     if (TriggerY.Checked)
                     {
@@ -2676,6 +2676,7 @@ namespace Laser
                 EWHendoftuning.Set();
                 stopWatch.Stop();
                 stopWatch.Reset();
+                StopTheMeasurements = false;
                 MessageBox.Show("Przestrajanie zakończone");
             });
         }
