@@ -57,6 +57,12 @@ namespace Laser
         ScalingParameters scalingParameters;
         private BackgroundWorker myWorker = new BackgroundWorker();
         OscyloskopT1.Form1 Oscyl;
+        private bool stopthemeasurements = false;
+        public bool StopTheMeasurements
+        {
+            get { return stopthemeasurements; }
+            set { stopthemeasurements = value; }
+        }
         public Form1()
         {
             Form2 form2 = new Form2();
@@ -694,7 +700,7 @@ namespace Laser
                 }
                 if(stopWatch.IsRunning)
                     Stoper = stopWatch.ElapsedMilliseconds;
-                for (j = 0; j <= p; j++)
+                for (j = 0; j <= p || !stopthemeasurements; j++)
                 {
                     if (TriggerY.Checked)
                     {
@@ -734,9 +740,9 @@ namespace Laser
                     }
                 }
             }
-            EWHendoftuning.Set();
             stopWatch.Stop();
             stopWatch.Reset();
+            StopTheMeasurements = false;
             MessageBox.Show("Przestrajanie zakończone");
         }
 
@@ -1347,6 +1353,8 @@ namespace Laser
                 if (VTscan.IsAlive) VTscan.Abort();
                 if (Vscan.IsAlive) Vscan.Abort();
                 if (Tscan.IsAlive) Tscan.Abort();
+                EWHprzestroj.Set();
+                stopthemeasurements = true;
             }
         }
 
