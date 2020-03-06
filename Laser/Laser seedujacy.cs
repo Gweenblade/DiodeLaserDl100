@@ -2664,7 +2664,7 @@ namespace Laser
                     SBloop.Append(Stoper + ":" + TPOM + ":" + VPOM + ":");
                     using (StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName, true))
                     {
-                        StreamLoop.Write("DFB " + SBloop + Environment.NewLine);
+                        StreamLoop.Write("DFB " + SBloop);
                     }
                     SBloop.Clear();
                     SBloop.Append("" + Environment.NewLine);
