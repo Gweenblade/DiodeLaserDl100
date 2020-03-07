@@ -700,7 +700,7 @@ namespace Laser
                 }
                 if(stopWatch.IsRunning)
                     Stoper = stopWatch.ElapsedMilliseconds;
-                for (j = 0; j <= p || !stopthemeasurements; j++)
+                for (j = 0; j <= p; j++)
                 {
                     if (TriggerY.Checked)
                     {
@@ -2664,10 +2664,9 @@ namespace Laser
                     SBloop.Append(Stoper + ":" + TPOM + ":" + VPOM + ":");
                     using (StreamWriter StreamLoop = new StreamWriter(SaveLoop.FileName, true))
                     {
-                        StreamLoop.Write("DFB " + SBloop);
+                        StreamLoop.Write("DFB " + SBloop + Environment.NewLine);
                     }
                     SBloop.Clear();
-                    SBloop.Append("" + Environment.NewLine);
                     if (TriggerY.Checked)
                     {
                         EWHustawiono.Set();
